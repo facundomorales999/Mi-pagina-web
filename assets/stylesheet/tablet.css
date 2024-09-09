@@ -1,4 +1,4 @@
-/* Header */
+    /* Header */
 
 nav.nav_menu.active {
     width: 50%;
@@ -6,7 +6,7 @@ nav.nav_menu.active {
     top: 5.9rem;
 }
 
-/* Home */
+    /* Home */
 
 .image_home {
     max-width: 50rem;
@@ -27,7 +27,7 @@ nav.nav_menu.active {
     font-size: 3.6rem;
 }
 
-/* Sobre mi */
+    /* Sobre mi */
 
 .sobreMi {
     padding: 0 2rem;
@@ -60,13 +60,13 @@ nav.nav_menu.active {
     margin-top: 2rem;
 }
 
-/* Habilidades */
+    /* Habilidades */
 
 .cards_container--habilidades {
     column-gap: 4rem;
 }
 
-/* Formación */
+    /* Formación */
 
 .cards_container--formacion {
     flex-wrap: wrap;

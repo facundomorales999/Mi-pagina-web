@@ -43,7 +43,7 @@ html::-webkit-scrollbar-thumb {
     background-color: #776254;
 }
 
-/* Header */
+    /* Header */
 
 .header {
     background-color: var(--jet);
@@ -260,7 +260,7 @@ span+span {
     }
 }
 
-/* Home */
+    /* Home */
 
 .home {
     background-color: var(--jet);
@@ -570,7 +570,7 @@ img.logo-sena {
     font-size: 1.4rem;
 }
 
-/* Proyectos */
+    /* Proyectos */
 
 .proyectos {
     background-color: var(--jet);
@@ -709,7 +709,7 @@ img.logo-sena {
     transition: all .4s ease;
 }
 
-/* Contacto */
+    /* Contacto */
 
 .contacto {
     background-color: var(--eerie-black);

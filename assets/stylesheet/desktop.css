@@ -1,4 +1,4 @@
-/* Header */
+    /* Header */
 
 .header {
     justify-content: space-between;
@@ -54,7 +54,7 @@ div.btn {
     display: none;
 }
 
-/* Home */
+    /* Home */
 
 .home {
     display: flex;
@@ -207,7 +207,7 @@ div.btn {
     line-height: 2.8rem;
 }
 
-/* Habilidades */
+    /* Habilidades */
 
 .habilidades {
     padding-bottom: 8rem;
@@ -252,7 +252,7 @@ div.btn {
     margin-top: .8rem;
 }
 
-/* Formación */
+    /* Formación */
 
 .formacion {
     padding-bottom: 2rem;
@@ -271,7 +271,7 @@ div.btn {
     transition: .4s all;
 }
 
-/* Proyectos */
+    /* Proyectos */
 
 .proyectos h1 {
     padding-top: 8rem;
@@ -318,7 +318,7 @@ div.btn {
     padding-right: 3.5rem;
 }
 
-/* Contacto */
+    /* Contacto */
 
 .contacto h1 {
     padding: 8rem 0 2.5rem 0;
