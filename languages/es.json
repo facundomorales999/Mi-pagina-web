@@ -1,0 +1,80 @@
+{
+    "menu": {
+        "item2": "Sobre mí",
+        "item3": "Habilidades",
+        "item4": "Formación",
+        "item5": "Proyectos",
+        "item6": "Contacto"
+    },
+
+    "home": {
+        "home_text-1": "Buenas! Yo Soy",
+        "home_text-3": "AWS Cloud Practitioner | Estudiante de TI",
+        "parrafo-info": "Estudiante de distintas ramas de la informática, tomando como punto de partida el diseño tanto de nube como de estructuras. Me especializo en diversas áreas, lo que me ha proporcionado un perfil amplio y versátil en el campo.",
+        "cv_button": "Descargar CV",
+        "contact_button": "Contacto"
+    },
+
+    "sobre-mi": {
+        "title": "Sobre mí",
+        "texto_sobreMi": "Soy una persona altamente responsable, puntual y organizada, con una gran capacidad para adaptarme a diferentes entornos de trabajo. Mi objetivo es obtener mi primera oportunidad laboral en el sector de IT, donde confío en que mis habilidades y conocimientos podrán marcar la diferencia. <br> Me siento preparado para enfrentar nuevos desafíos y contribuir de manera efectiva. <br>"
+    },
+
+    "habilidades": {
+        "title": "Habilidades"
+    },
+
+    "formacion": {
+        "title": "Formación academica y Credenciales",
+
+        "formacion1.0": "AWS Certified",
+        "formacion1.1": "Cloud Practitioner",
+        "moreInfo_button1": "Mas Información",
+        
+        "formacion2.0": "AWS re/Start",
+        "formacion2.1": "Graduate",
+        "moreInfo_button2": "Mas Información",
+
+        "formacion3.0" : "Coursera",
+        "formacion3.1": "Certificados en distintas ramas de IT",
+        
+        "formacion4.0" : "Ingeniería en Informática",
+        "formacion4.1" : "Universidad Católica del Uruguay",
+        "tiempo-formacion4" : "2020 - 2023",
+
+        "formacion5.0" : "Jovenes a Programar",
+        "formacion5.1" : "Testing",
+        "moreInfo_button5": "Mas Información",
+
+        "CredencialForge1" : "Trabajo en Equipo",
+        "moreInfo_button_Forge1" : "Mas Información",
+
+        "CredencialForge2" : "Liderazgo personal",
+        "moreInfo_button_Forge2" : "Mas Información",
+
+        "CredencialForge3" : "Orientación al logro",
+        "moreInfo_button_Forge3" : "Mas Información",
+
+        "CredencialForge4" : "Compromiso con el aprendizaje",
+        "moreInfo_button_Forge4" : "Mas Información"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        
+        "title-proyecto1": "Juego Batalla Naval",
+        "info-proyecto1": "Te embarcaras en una épica batalla, lejos de ser el juego convencional y con bastantes giros.",
+        
+        "title-proyecto2": "Sitio Web usando S3",
+        "info-proyecto2": "Planteamos un tutorial y un ejemplo de como desplegar un sitio web utilizando amazon S3.",
+        
+        "title-proyecto3": "Portafolio",
+        "info-proyecto3": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación."
+    },
+
+    "contacto": {
+        "title": "Contacto",
+        "text": "Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.",
+        "btn-enviar": "Enviar"
+    }
+}

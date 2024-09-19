@@ -429,6 +429,7 @@ span+span {
     width: 65%;
     margin-bottom: 5rem;
     border-bottom: 2px solid var(--jet);
+    border-radius: 10px; /* Redondea los bordes de la imagen */
 }
 
 /* Habilidades */
@@ -537,6 +538,7 @@ span+span {
     width: 15rem; /* Ajusta el tamaño a lo que prefieras (más pequeño que antes) */
     border-radius: 10px; /* Redondea los bordes de la imagen */
     object-fit: cover; /* Asegura que la imagen mantenga sus proporciones */
+    margin-bottom: 1.7rem; /* Agrega espacio debajo de la imagen */
 }
 
 .container_texto--formacion {
@@ -652,6 +654,7 @@ img.logo-forge {
 .container_imgCard--proyectos img {
     width: 100%;
     border-radius: 20px 20px 0 0;
+    padding-bottom: 1.5rem; /* Añade espacio debajo de la imagen */
 }
 
 .container_textCard--proyectos {

@@ -70,6 +70,8 @@ div.btn {
 
 .image_home {
     object-fit: contain;
+    border-radius: 10px; /* Redondea los bordes de la imagen */
+    object-fit: cover; /* Asegura que la imagen mantenga sus proporciones */
 }
 
 .home_info {
