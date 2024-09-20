@@ -36,7 +36,7 @@ btn.addEventListener('click', function() {
 
 /*===== Cambio de idioma =====*/
 const changeLanguage = async language => {
-    const requestJson = await fetch(`./languages/${language}.json`);
+    const requestJson = await fetch(`./assets/languages/${language}.json`);
     const texts = await requestJson.json();
 
     for(const textToChange of textsToChange) {

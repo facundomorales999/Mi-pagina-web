@@ -28,7 +28,6 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/images/deco/favicon.png" type="image/x-icon">
-
 </head>
 <body>
     <div class="container--loader">
@@ -78,19 +77,16 @@
                     </p>
                     <p class="home_text-2"> Facundo Morales </p>
                 </div>
-
                 <div>
                     <p class="home_text-3 text-type" data-section="home" data-value="home_text-3"> 
                         AWS Cloud Practitioner | Estudiante de TI
                     </p>
                 </div>
-
                 <div class="container_parrafo-info">
                     <p data-section="home" data-value="parrafo-info"> 
-                        "Estudiante de distintas ramas de la informática, tomando como punto de partida el diseño tanto de nube como de estructuras. Me especializo en diversas áreas, lo que me ha proporcionado un perfil amplio y versátil en el campo."     
+                        Soy un estudiante de distintas ramas de la informática, tomando como punto de partida lo que mas disfruto es diseñar tanto de nube como de estructuras. Me especializo en diversas áreas, lo que me ha proporcionado un perfil versátil y multiadaptable en el campo.    
                     </p>
                 </div>
-
                 <div class="container_button">
                     <a href="https://drive.google.com/file/d/1-ugQTGTOib7QgJkPs7idvh6AMAZYwb-t/view?usp=sharing" target="_blank">
                         <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
@@ -100,7 +96,6 @@
                     </a>
                 </div>
             </div>
-
             <div class="links">
                 <a href="https://www.linkedin.com/in/facundo-morales-weston-524642134/" target="_blank">
                     <img src="./assets/images/icon/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
@@ -143,8 +138,7 @@
             <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
             <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
 
-            <div class="cards_container--habilidades">
-                
+            <div class="cards_container--habilidades">     
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
                     <img src="./assets/images/icon/icon-aws.png" alt="AWS Cloud">
                     <p> AWS Cloud </p>
@@ -339,7 +333,6 @@
 
             <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
             <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
-
             
             <div class="cards_container--proyectos">
                 <!-- PRIMER PROYECTO -->
@@ -354,7 +347,6 @@
                             Te embarcaras en una épica batalla, lejos de ser el juego convencional y con bastantes giros. 
                         </p>
                     </div>
-
                     <div class="container_btn--proyectos">
                         <a href="https://github.com/facundomorales999/NavyW3_Bot" target="_blank">
                             <button class="btn_repo">
@@ -384,7 +376,6 @@
                                 <img src="./assets/images/icon/icon-demoProyecto.png" alt="Demostración">DEMO
                             </button>
                         </a>
-
                         <a href="https://github.com/facundomorales999/NavyW3_Bot" target="_blank">
                             <button class="btn_repo">
                                 <img src="./assets/images/icon/icon-githubProyecto.png" alt="Repositorio de github">REPO
@@ -401,12 +392,11 @@
                     <div class="container_textCard--proyectos text-portafolio">
                         <h2 data-section="proyectos" data-value="title-proyecto3">Portafolio</h2>
                         <p data-section="proyectos" data-value="info-proyecto3">
-                            Mi portafolio personal, donde tengo un popurri de mi trayectoria.
+                            Mi portafolio web, donde se encuentran algunos de mis proyectos destacados, mis habilidades técnicas y un poco sobre mi formación.
                         </p>
                     </div>
 
-                    <div class="container_btn--proyectos">
-                        
+                    <div class="container_btn--proyectos">          
                         <a href="https://facundomorales999.github.io/Mi-pagina-web/" target="_blank">
                             <button class="btn_demo">
                                 <img src="./assets/images/icon/icon-demoProyecto.png" alt="Demostración">DEMO
@@ -428,15 +418,19 @@
             <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
 
             <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-    
                 <div class="container--contacto">
                     <div class="container_text--contacto">
                         <p data-section="contacto" data-value="text">
                             Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.
                         </p>
                     </div>
-    
-                    <form id="form" class="form-contact" name="contacto-portafolio" netlify>
+                    
+                    <!-- Formulario adaptado para Netlify -->
+                    <form id="form" class="form-contact" name="contacto-portafolio" method="POST" netlify netlify-honeypot="bot-field">
+
+                        <!-- Campo oculto para evitar bots -->
+                        <input type="hidden" name="bot-field" />
+
                         <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
                         <input id="email" type="email" name="email" placeholder="Correo" required>
                         <input id="asunto" type="text" name="affair" placeholder="Asunto | Subject" required> 
@@ -448,7 +442,7 @@
                     </form>
                 </div>
             </div>
-        </section>
+        </section>         
     </main>
 
     <footer>
@@ -465,6 +459,7 @@
                 </a>
                 <a href="mailto:facumorales2908@gmail.com" target="_blank">
                     <img src="./assets/images/icon/icon-mail.png" alt="gmail">
+                </a>
             </div>
         </div>
     </footer>
