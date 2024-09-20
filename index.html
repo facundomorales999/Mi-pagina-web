@@ -426,10 +426,10 @@
                     </div>
                     
                     <!-- Formulario adaptado para Netlify -->
-                    <form id="form" class="form-contact" name="contacto-portafolio" method="POST" netlify netlify-honeypot="bot-field">
+                    <form id="form" class="form-contact" name="contacto-portafolio" method="POST" data-netlify="true" netlify-honeypot="bot-field">
 
                         <!-- Campo oculto para evitar bots -->
-                        <input type="hidden" name="bot-field" />
+                        <input type="hidden" name="form-name" value="contacto-portafolio" />
 
                         <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
                         <input id="email" type="email" name="email" placeholder="Correo" required>
