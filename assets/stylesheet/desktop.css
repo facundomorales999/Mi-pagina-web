@@ -275,16 +275,19 @@ div.btn {
 
     /* Proyectos */
 
+/* Proyectos */
 .proyectos h1 {
     padding-top: 8rem;
     font-size: 3rem;
+    text-align: center;
+    color: #fff;
 }
 
 .puntos1-proyectos {
     display: inline;
     position: absolute;
     width: 6rem;
-    margin: 20rem 0 0  1%;
+    margin: 20rem 0 0 1%;
     background-attachment: fixed;
 }
 
@@ -296,28 +299,108 @@ div.btn {
 }
 
 .cards_container--proyectos {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 40px; /* Mayor espaciado entre proyectos */
+    padding: 4rem;
     justify-content: center;
+    align-items: stretch;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .cards--proyectos {
-    width: 40rem;
-    height: 40rem;
+    width: 100%;
+    max-width: 42rem;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 1.5rem;
-    z-index: 1;
+    align-items: stretch;
+    text-align: center;
+    padding: 2rem;
+    background: #222;
+    color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+
+.cards--proyectos:hover {
+    transform: scale(1.05);
+}
+
+.container_imgCard--proyectos {
+    padding: 0.5rem;
+    box-sizing: border-box;
+    height: 200px; /* Altura fija para las imágenes */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container_imgCard--proyectos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.container_textCard--proyectos {
+    padding: 0 1rem;
+    box-sizing: border-box;
+    flex-grow: 1;
 }
 
 .text-portafolio {
-    margin-top: -3rem;
+    margin-top: -1rem;
+    font-size: 1rem;
+}
+
+.container_btn--proyectos {
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: auto;
 }
 
 .container_btn--proyectos button {
     width: auto;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+    min-width: 10rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0073e6;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    flex: 1;
+    max-width: 20rem;
+}
+
+.container_btn--proyectos button:hover {
+    background-color: #005bb5;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .cards_container--proyectos {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .puntos1-proyectos, .puntos2-proyectos {
+        display: none;
+    }
+    .container_btn--proyectos {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
     /* Contacto */
