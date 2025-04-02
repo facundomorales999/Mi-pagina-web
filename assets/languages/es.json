@@ -8,16 +8,16 @@
     },
 
     "home": {
-        "home_text-1": "Buenas! Yo Soy",
-        "home_text-3": "AWS Cloud Practitioner | Estudiante de TI",
-        "parrafo-info": "Estudiante de distintas ramas de la informática, tomando como punto de partida el diseño tanto de nube como de estructuras. Me especializo en diversas áreas, lo que me ha proporcionado un perfil amplio y versátil en el campo.",
+        "home_text-1": "Buenas! Soy",
+        "home_text-3": "AWS Cloud Practitioner | Estudiante Ingeniería en Computación",
+        "parrafo-info": "Soy estudiante de informática con pasión por el diseño de soluciones, tanto en la nube como a nivel estructural. <br> Me encanta explorar distintas áreas del desarrollo, lo que me ha permitido construir un perfil versátil y adaptable. <br> Busco combinar creatividad y funcionalidad para resolver problemas de forma eficiente.",
         "cv_button": "Descargar CV",
         "contact_button": "Contacto"
     },
 
     "sobre-mi": {
         "title": "Sobre mí",
-        "texto_sobreMi": "Soy una persona altamente responsable, puntual y organizada, con una gran capacidad para adaptarme a diferentes entornos de trabajo. Mi objetivo es obtener mi primera oportunidad laboral en el sector de IT, donde confío en que mis habilidades y conocimientos podrán marcar la diferencia. <br> Me siento preparado para enfrentar nuevos desafíos y contribuir de manera efectiva. <br>"
+        "texto_sobreMi": "Soy una persona responsable, puntual y organizada, con gran capacidad de adaptación a distintos entornos. <br> Busco mi primera oportunidad laboral en el sector IT, donde pueda aplicar mis habilidades y marcar la diferencia.<br> Estoy preparado para asumir nuevos desafíos y contribuir de forma efectiva al equipo."
     },
 
     "habilidades": {
@@ -69,7 +69,10 @@
         "info-proyecto2": "Planteamos un tutorial y un ejemplo de como desplegar un sitio web utilizando amazon S3.",
         
         "title-proyecto3": "Portafolio",
-        "info-proyecto3": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación."
+        "info-proyecto3": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.",
+
+        "title-proyecto4": "Serverless Proyect",
+        "info-proyecto4": "Sistema de envío masivo de correos electrónicos. Utilizando servicios serverless de AWS para escalar automáticamente. "
     },
 
     "contacto": {

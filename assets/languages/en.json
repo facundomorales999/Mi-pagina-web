@@ -10,14 +10,14 @@
     "home": {
         "home_text-1": "Hey! I'm",
         "home_text-3": "AWS Cloud Practitioner | IT Student",
-        "parrafo-info": "Student of different branches of computer science, taking as a starting point the design of both cloud and structures. I specialise in different areas, which has given me a broad and versatile profile in the field.",
+        "parrafo-info": "I'm a computer science student with a passion for designing solutions, both in the cloud and at a structural level. <br> I enjoy exploring different areas of development, which has helped me build a versatile and adaptable profile. <br> I'm driven to combine creativity and functionality to solve problems efficiently.",
         "cv_button": "Download CV",
         "contact_button": "Contact"
     },
 
     "sobre-mi": {
         "title": "About me",
-        "texto_sobreMi": "I am a highly responsible, punctual and organised person, with a great ability to adapt to different working environments. My goal is to get my first job opportunity in the IT sector, where I am confident that my skills and knowledge can make a difference. <br> I feel ready to face new challenges and contribute effectively. <br>"
+        "texto_sobreMi": "I’m a responsible, punctual, and organized person with a strong ability to adapt to different environments. <br> I’m looking for my first opportunity in the IT sector, where I can apply my skills and make a difference. I’m ready to take on new challenges and contribute effectively to a team."
     },
 
     "habilidades": {
@@ -69,7 +69,10 @@
         "info-proyecto2": "We provide a tutorial and an example of how to deploy a website using amazon S3.",
         
         "title-proyecto3": "Portafolio",
-        "info-proyecto3": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a bit about my background."
+        "info-proyecto3": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a bit about my background.",
+
+        "title-proyecto4": "Serverless Proyect",
+        "info-proyecto4": "Mass email delivery system using AWS serverless services for automatic scalability."
     },
 
     "contacto": {
