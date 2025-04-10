@@ -84,3 +84,17 @@ document.querySelector('.go-top-container').addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
+// Inicialización de AOS
+AOS.init({
+    once: true,         // Las animaciones se ejecutan solo una vez
+    duration: 700,      // Duración de la animación en milisegundos
+    offset: 100,        // Cuándo comienza la animación al hacer scroll
+    easing: 'ease-in-out',
+    disable: false      // Asegura que funcione en móviles también
+});
+
+// Forzar refresco después de que cargue todo (importante para layout con grid)
+window.addEventListener('load', () => {
+    AOS.refresh();
+});

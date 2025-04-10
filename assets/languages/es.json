@@ -25,39 +25,46 @@
     },
 
     "formacion": {
-        "title": "Formación academica y Credenciales",
+        "title": "Academic Education and Credentials",
+    
+        "tituloAWS": "AWS",
+        "tituloUniversidad": "Universidad",
+        "tituloCoursera": "Coursera",
+        "tituloJAP": "Jóvenes a Programar",
+        "tituloForge": "Forge",
 
-        "formacion1.0": "AWS Certified",
-        "formacion1.1": "Cloud Practitioner",
-        "moreInfo_button1": "Mas Información",
-        
-        "formacion2.0": "AWS re/Start",
-        "formacion2.1": "Graduate",
-        "moreInfo_button2": "Mas Información",
+        "moreInfo_button1": "Mas Informacion",
 
-        "formacion3.0" : "Coursera",
-        "formacion3.1": "Certificados en distintas ramas de IT",
-        
-        "formacion4.0" : "Ingeniería en Informática",
-        "formacion4.1" : "Universidad Católica del Uruguay",
-        "tiempo-formacion4" : "2020 - 2023",
+        "formacion_U1": "Ingeniería en informática",
+        "formacion_U2": "Universidad Catolica del Uruguay",
+        "tiempo-formacion_U1": "2020 - 2023",
+        "formacion_U3": "Ingeniería en Computación ",
+        "formacion_U4": "Universidad de la Republica",
+        "tiempo-formacion_U2": "2025 - Actualidad",
+    
+        "formacion_AWS1" : "AWS Certified",
+        "formacion_AWS2" : "Cloud Practitioner",
+        "formacion_AWS3" : "AWS re/Start",
+        "formacion_AWS4" : "Graduate",
+        "formacion_AWS5" : "AWS Cloud Quest:",
+        "formacion_AWS6" : "Cloud Practitioner",
+    
+        "formacion_C1" : "Bases de datos y SQL",
+        "formacion_C2" : "para ciencia de datos con Python",
+        "formacion_C3" : "Python para la ciencia de datos,",
+        "formacion_C4" : "IA y desarrollo",
+        "formacion_C5" : "Fundamentos de la gestión de proyectos",
 
-        "formacion5.0" : "Jovenes a Programar",
-        "formacion5.1" : "Testing",
-        "moreInfo_button5": "Mas Información",
+        "formacion_J1" : "Jóvenes a Programar",
+        "formacion_J2" : "Testing",
+        "formacion_J3" : "Programacion Web",
+        "formacion_J4" : "Desde Cero",
 
         "CredencialForge1" : "Trabajo en Equipo",
-        "moreInfo_button_Forge1" : "Mas Información",
-
         "CredencialForge2" : "Liderazgo personal",
-        "moreInfo_button_Forge2" : "Mas Información",
-
         "CredencialForge3" : "Orientación al logro",
-        "moreInfo_button_Forge3" : "Mas Información",
-
-        "CredencialForge4" : "Compromiso con el aprendizaje",
-        "moreInfo_button_Forge4" : "Mas Información"
-    },
+        "CredencialForge4" : "Compromiso con el aprendizaje"
+    },    
 
     "proyectos": {
         "title": "Proyectos",

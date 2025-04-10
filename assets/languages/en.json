@@ -9,8 +9,8 @@
 
     "home": {
         "home_text-1": "Hey! I'm",
-        "home_text-3": "AWS Cloud Practitioner | IT Student",
-        "parrafo-info": "I'm a computer science student with a passion for designing solutions, both in the cloud and at a structural level. <br> I enjoy exploring different areas of development, which has helped me build a versatile and adaptable profile. <br> I'm driven to combine creativity and functionality to solve problems efficiently.",
+        "home_text-3": "AWS Cloud Practitioner | Computer Engineering Student",
+        "parrafo-info": "I’m a Computer Science student with a passion for designing solutions—both in the cloud and at a structural level. <br> I love exploring different areas of development, which has allowed me to build a versatile and adaptable profile. <br> My goal is to combine creativity and functionality to solve problems efficiently.",
         "cv_button": "Download CV",
         "contact_button": "Contact"
     },
@@ -25,39 +25,46 @@
     },
 
     "formacion": {
-        "title": "Academic background and credentials",
+        "title": "Academic Education and Credentials",
+    
+        "tituloAWS": "AWS",
+        "tituloUniversidad": "Universidad",
+        "tituloCoursera": "Coursera",
+        "tituloJAP": "Jóvenes a Programar",
+        "tituloForge": "Forge",
 
-        "formacion1.0": "AWS Certified",
-        "formacion1.1": "Cloud Practitioner",
-        "moreInfo_button1": "Further information",
-        
-        "formacion2.0": "AWS re/Start",
-        "formacion2.1": "Graduate",
-        "moreInfo_button2": "Further information",
+        "moreInfo_button1": "Further Information",
 
-        "formacion3.0" : "Coursera",
-        "formacion3.1": "Certificates in different IT fields",
-        
-        "formacion4.0" : "Computer Engineering",
-        "formacion4.1" : "Universidad Católica del Uruguay",
-        "tiempo-formacion4" : "2020 - 2023",
+        "formacion_U1": "Computer Engineering",
+        "formacion_U2": "Catholic University of Uruguay",
+        "tiempo-formacion_U1": "2020 - 2023",
+        "formacion_U3": "Computer Engineering",
+        "formacion_U4": "Universidad de la Republica",
+        "tiempo-formacion_U2": "2025 - Nowadays",
+    
+        "formacion_AWS1" : "AWS Certified",
+        "formacion_AWS2" : "Cloud Practitioner",
+        "formacion_AWS3" : "AWS re/Start",
+        "formacion_AWS4" : "Graduate",
+        "formacion_AWS5" : "AWS Cloud Quest:",
+        "formacion_AWS6" : "Cloud Practitioner",
+    
+        "formacion_C1" : "Databases and SQL",
+        "formacion_C2" : "for Data Science with Python",
+        "formacion_C3" : "Python for Data Science,",
+        "formacion_C4" : "AI & Development",
+        "formacion_C5" : "Fundamentals of Project Management",
 
-        "formacion5.0" : "Jovenes a Programar",
-        "formacion5.1" : "Testing",
-        "moreInfo_button5": "Further information",
+        "formacion_J1" : "Jóvenes a Programar",
+        "formacion_J2" : "Testing",
+        "formacion_J3" : "Programacion Web",
+        "formacion_J4" : "Desde Cero",
 
         "CredencialForge1" : "Teamwork",
-        "moreInfo_button_Forge1" : "Further information",
-
         "CredencialForge2" : "Personal leadership",
-        "moreInfo_button_Forge2" : "Further information",
-
         "CredencialForge3" : "Achievement orientation",
-        "moreInfo_button_Forge3" : "Further information",
-
-        "CredencialForge4" : "Engagement in learning",
-        "moreInfo_button_Forge4" : "Further information"
-    },
+        "CredencialForge4" : "Engagement in learning"
+    },  
 
     "proyectos": {
         "title": "Projects",
