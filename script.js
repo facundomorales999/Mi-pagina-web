@@ -3,7 +3,7 @@ const sectionAll = document.querySelectorAll('section[id]');
 const inputName = document.querySelector('#nombre');
 const inputEmail = document.querySelector('#email');
 const flagsElement = document.getElementById('flags');
-const textsToChange = document.querySelectorAll('[data-section]');
+const textsToChange = document.querySelectorAll("[data-section][data-value]");
 
 /* ===== Loader =====*/
 window.addEventListener('load', () => {
@@ -39,17 +39,44 @@ const changeLanguage = async language => {
     const requestJson = await fetch(`./assets/languages/${language}.json`);
     const texts = await requestJson.json();
 
-    for(const textToChange of textsToChange) {
+    for (const textToChange of textsToChange) {
         const section = textToChange.dataset.section;
         const value = textToChange.dataset.value;
+        const text = texts[section]?.[value];
 
-        textToChange.innerHTML = texts[section][value];
+        if (!text) continue;
+
+        if (text.includes('<br>')) {
+            textToChange.innerHTML = text;
+        } else {
+            textToChange.textContent = text;
+        }
+    }
+    /*===== Cambiar el link al CV =====*/ 
+    updateCvLink(language);
+}
+
+function updateCvLink(language) {
+    const cvButton = document.getElementById('cv-button'); // o el ID real de tu botón
+    const cvLinks = {
+        "es": "https://drive.google.com/file/d/1u98BvAAz7HitK5--BDSUQu5pZh4ECjW2/view",
+        "en": "https://drive.google.com/file/d/16uH52mXrGsmZpmb4991pcA-SOWQnTFfm/view?usp=sharing"
+    };
+
+    // Actualizar el href del botón
+    if (cvLinks[language]) {
+        cvButton.href = cvLinks[language];
+    } else {
+        console.warn("No hay link definido para el idioma:", language);
     }
 }
 
 flagsElement.addEventListener('click', (e) => {
-    changeLanguage(e.target.parentElement.dataset.language);
-})
+    const langElement = e.target.closest('[data-language]');
+    if (langElement) {
+        changeLanguage(langElement.dataset.language);
+    }
+});
 
 /*===== class active por secciones =====*/
 window.addEventListener('scroll', () => {

@@ -351,10 +351,12 @@ span+span {
     margin: 2rem 0;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .contact_button {
     display: none;
+    text-decoration: none;
 }
 
 .links {
