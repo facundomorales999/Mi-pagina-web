@@ -1,4 +1,4 @@
-    /* Header */
+/*===== HEADER =====*/
 
 nav.nav_menu.active {
     width: 50%;
@@ -6,7 +6,7 @@ nav.nav_menu.active {
     top: 5.9rem;
 }
 
-    /* Home */
+/*===== HOME =====*/
 
 .image_home {
     max-width: 50rem;
@@ -27,7 +27,7 @@ nav.nav_menu.active {
     font-size: 3.6rem;
 }
 
-    /* Sobre mi */
+/*===== SOBRE MI =====*/
 
 .sobreMi {
     padding: 0 2rem;
@@ -60,13 +60,13 @@ nav.nav_menu.active {
     margin-top: 2rem;
 }
 
-    /* Habilidades */
+/*===== HABILIDADES =====*/
 
 .cards_container--habilidades {
     column-gap: 4rem;
 }
 
-    /* Formación */
+/*===== FORMACIÓN =====*/
 
 .cards_container--formacion {
     flex-wrap: wrap;
@@ -77,7 +77,7 @@ nav.nav_menu.active {
     margin: 0 2rem 3rem 2rem;
 }
 
-/* Proyectos */
+/*===== PROYECTOS =====*/
 
 .cards--proyectos {
     max-width: 48rem;
@@ -87,7 +87,8 @@ nav.nav_menu.active {
     width: 20.6rem;
 }
 
-/* Contacto */
+/*===== CONTACTO =====*/
+
 .container--contacto {
     margin: 0 auto;
     width: 80%;

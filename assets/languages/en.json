@@ -37,7 +37,7 @@
 
         "formacion_U1": "Computer Engineering",
         "formacion_U2": "Catholic University of Uruguay",
-        "tiempo-formacion_U1": "2020 - 2023",
+        "tiempo-formacion_U1": "2020 - 2022",
         "formacion_U3": "Computer Engineering",
         "formacion_U4": "Universidad de la Republica",
         "tiempo-formacion_U2": "2025 - Nowadays",
@@ -54,6 +54,8 @@
         "formacion_C3" : "Python for Data Science,",
         "formacion_C4" : "AI & Development",
         "formacion_C5" : "Fundamentals of Project Management",
+        "formacion_C6" : "Artificial Intelligence:",
+        "formacion_C7" : "Ethics & Societal Challenges",
 
         "formacion_J1" : "Jóvenes a Programar",
         "formacion_J2" : "Testing",

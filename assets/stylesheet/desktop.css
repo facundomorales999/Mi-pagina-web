@@ -1,4 +1,4 @@
-    /* Header */
+/*===== HEADER =====*/
 
 .header {
     justify-content: space-between;
@@ -54,7 +54,7 @@ div.btn {
     display: none;
 }
 
-    /* Home */
+/*===== HOME =====*/
 
 .home {
     display: flex;
@@ -176,7 +176,7 @@ div.btn {
     margin: .7rem 0 .7rem .2rem;
 }
 
-/* Sobre Mí */
+/*===== SOBRE MI =====*/
 
 .sobreMi {
     padding-bottom: 4rem;
@@ -209,7 +209,7 @@ div.btn {
     line-height: 2.8rem;
 }
 
-    /* Habilidades */
+/*===== HABILIDADES =====*/
 
 .habilidades {
     padding-bottom: 8rem;
@@ -254,7 +254,7 @@ div.btn {
     margin-top: .8rem;
 }
 
-    /* Formación */
+/*===== FORMACIÓN =====*/
 
 .formacion {
     padding-bottom: 2rem;
@@ -273,9 +273,8 @@ div.btn {
     transition: .4s all;
 }
 
-    /* Proyectos */
+/*===== PROYECTOS =====*/
 
-/* Proyectos */
 .proyectos h1 {
     padding-top: 8rem;
     font-size: 3rem;
@@ -403,7 +402,7 @@ div.btn {
     }
 }
 
-    /* Contacto */
+/*===== CONTACTO =====*/
 
 .contacto h1 {
     padding: 8rem 0 2.5rem 0;

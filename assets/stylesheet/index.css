@@ -375,7 +375,7 @@ span+span {
     margin-top: 2px;
 }
 
-/* Sobre mí */
+/*===== SOBRE MI =====*/
 
 .sobreMi {
     background-color: var(--eerie-black);
@@ -434,7 +434,7 @@ span+span {
     border-radius: 10px; /* Redondea los bordes de la imagen */
 }
 
-/* Habilidades */
+/*===== HABILIDADES =====*/
 
 .habilidades {
     background-color: var(--jet);
@@ -517,7 +517,7 @@ span+span {
     padding: 0 2rem 4rem 2rem;
 }
 
-/* NUEVO: Título de cada categoría (AWS, Universidad, etc.) */
+/* NUEVO: Título de cada categoría */
 .titulo-categoria {
     color: var(--white);
     font-family: 'Cooper Hewitt';
@@ -540,7 +540,6 @@ span+span {
     justify-content: center;
     gap: 2rem;
 }
-
 
 /* Tus estilos existentes siguen funcionando */
 .cards--formacion {
@@ -621,7 +620,7 @@ img.logo-forge {
     cursor: pointer;
 }
 
-    /* Proyectos */
+/*===== PROYECTOS =====*/
 
 .proyectos {
     background-color: var(--jet);
@@ -761,7 +760,7 @@ img.logo-forge {
     transition: all .4s ease;
 }
 
-    /* Contacto */
+/*===== CONTACTO =====*/
 
 .contacto {
     background-color: var(--eerie-black);
@@ -892,7 +891,7 @@ img.logo-forge {
     background: #574438;
 }
 
-/* Footer */
+/*===== FOOTER =====*/
 
 footer {
     background-color: var(--eerie-black);
@@ -948,7 +947,7 @@ footer {
     margin-left: .2rem;
 }
 
-/* Botón ir arriba */
+/*===== BOTON PARA SUBIR =====*/
 
 .go-top-container {
     position: fixed;
