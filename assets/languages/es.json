@@ -2,23 +2,56 @@
     "menu": {
         "item2": "Sobre mí",
         "item3": "Habilidades",
-        "item4": "Formación",
-        "item5": "Proyectos",
-        "item6": "Contacto"
+        "item4": "Experiencia Laboral",
+        "item5": "Formación",
+        "item6": "Proyectos",
+        "item7": "Contacto"
     },
 
     "home": {
         "home_text-1": "Buenas! Soy",
-        "home_text-3": "AWS Cloud Practitioner | Estudiante Ingeniería en Computación",
-        "parrafo-info": "Soy estudiante de informática con pasión por el diseño de soluciones, tanto en la nube como a nivel estructural. <br> Me encanta explorar distintas áreas del desarrollo, lo que me ha permitido construir un perfil versátil y adaptable. <br> Busco combinar creatividad y funcionalidad para resolver problemas de forma eficiente.",
+        "home_text-3": "AWS Cloud Practitioner | Salesforce Administrator | Estudiante Ingeniería en Computación",
+        "parrafo-info": "Buenas, soy Técnico junior en Tata Consultancy Services, especializado en soporte IT y entornos corporativos internacionales. Bienvenido a mi portafolio, donde combino mi experiencia en Service Desk, Salesforce y AWS Cloud para seguir creciendo en el mundo tecnológico.",
         "cv_button": "Descargar CV",
         "contact_button": "Contacto"
     },
 
     "sobre-mi": {
         "title": "Sobre mí",
-        "texto_sobreMi": "Soy una persona responsable, puntual y organizada, con gran capacidad de adaptación a distintos entornos. <br> Busco mi primera oportunidad laboral en el sector IT, donde pueda aplicar mis habilidades y marcar la diferencia.<br> Estoy preparado para asumir nuevos desafíos y contribuir de forma efectiva al equipo."
+        "texto_sobreMi": "Soy Facundo Morales, apasionado por la tecnología y actualmente en crecimiento dentro del mundo IT. \n \n En Tata Consultancy Services me desempeño como IT Service Desk Analyst, brindando soporte a usuarios internacionales en entornos corporativos complejos. Mi experiencia incluye resolución de incidencias en Windows 11, Office 365, Outlook, OneDrive y herramientas de SSO (Duo, Zscaler, Okta), además de la gestión de tickets con ServiceNow. \n \n  Previamente me formé en Salesforce y AWS Cloud, lo que me permite tener una visión integral entre soporte técnico y plataformas en la nube. Me considero responsable, adaptable y con gran capacidad de aprendizaje continuo, siempre buscando aportar soluciones efectivas y mejorar la experiencia de los usuarios."
     },
+
+    
+    "experiencia": {
+        "title": "Experiencia Laboral",
+        "roles": [
+            {
+            "titulo": "Técnico Junior (Formación en Salesforce)",
+            "empresa": "Tata Consultancy Services",
+            "tiempo": "Junio 2025 – Agosto 2025",
+            "tareas": [
+                "Formación intensiva en Salesforce: objetos, permisos y automatización.",
+                "Práctica con LWC, Apex y SOQL en proyectos guiados.",
+                "Buenas prácticas con Salesforce DX y control de versiones."
+            ],
+            "chips": ["Salesforce", "LWC", "Apex", "SOQL", "Salesforce DX"]
+            },
+            {
+            "titulo": "IT Service Desk",
+            "empresa": "Assured Partners (a través de Tata Consultancy Services)",
+            "tiempo": "Septiembre 2025 – Actualidad",
+            "tareas": [
+                "Soporte técnico en inglés a usuarios internacionales.",
+                "Diagnóstico en Windows 11, Outlook, OneDrive y mapeo de unidades.",
+                "Gestión de accesos y SSO (Duo, Zscaler), escalaciones y documentación en ServiceNow."
+            ],
+            "chips": ["Windows 11", "Outlook/365", "OneDrive", "Duo", "Zscaler", "ServiceNow"]
+            }
+        ]
+    },
+
+    
+
 
     "habilidades": {
         "title": "Habilidades"

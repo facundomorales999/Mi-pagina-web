@@ -273,6 +273,20 @@ div.btn {
     transition: .4s all;
 }
 
+/*===== EXPERIENCIA LABORAL =====*/
+
+/* Experiencia: dos columnas en desktop como Proyectos */
+.experiencia .grupo-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding: 4rem;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 /*===== PROYECTOS =====*/
 
 .proyectos h1 {

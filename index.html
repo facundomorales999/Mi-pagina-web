@@ -1,563 +1,662 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio | Facundo Morales">
-    <meta name="robots" content="index,follow">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portafolio | Facundo Morales">
+<meta name="robots" content="index,follow">
 
-    <title> Facundo Morales | Portafolio </title>
+<title> Facundo Morales | Portafolio </title>
 
-    <!-- Librerías -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Librerías -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- Hojas de estilo -->
-    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
-    <link rel="stylesheet" href="./assets/stylesheet/index.css">
-    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
-    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+<!-- Hojas de estilo -->
+<link rel="stylesheet" href="./assets/stylesheet/loader.css">
+<link rel="stylesheet" href="./assets/stylesheet/index.css">
+<link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+<link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
 
-    <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+<!-- Fuentes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+<!-- Fontawesome -->
+<script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="./assets/images/deco/favicon.png" type="image/x-icon">
+<!-- Favicon -->
+<link rel="shortcut icon" href="./assets/images/deco/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <div class="container--loader">
-        <div class="loader"></div>
+<div class="container--loader">
+<div class="loader"></div>
+</div>
+
+<header class="header">
+<img src="./assets/images/deco/logo-FM.png" alt="Logo Portafolio" class="logo__header">
+
+<nav class="nav_menu not-active">
+  <a href="#home" class="active">Home</a>
+  <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+  <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
+  <a href="#experienciaLaboral" data-section="menu" data-value="item4">Experiencia Laboral</a>
+  <a href="#formacion" data-section="menu" data-value="item5">Formación</a>
+  <a href="#proyectos" data-section="menu" data-value="item6">Proyectos</a>
+  <a href="#contacto" data-section="menu" data-value="item7">Contacto</a>
+
+  <!-- Idiomas de la página -->
+  <div id="flags" class="flags">
+      <div class="flags__item" data-language="es">
+          <img src="./assets/images/icon/icon-spain.png" alt="Español/Spain">
+      </div>
+      <div class="flags__item" data-language="en">
+          <img src="./assets/images/icon/icon-en.png" alt="Inglés/English">
+      </div>
+  </div>
+</nav>
+
+<div id="button" class="btn not-active">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+</header>
+
+<main>
+<!-- Home -->
+<section class="home" id="home">
+  <picture class="container_image-home" data-aos="zoom-in">
+      <img class="image_home" src="./assets/images/deco/image-home.png" alt="Foto de perfil">
+  </picture>
+  
+  <div class="home_info">
+      <div class="container_text-info">
+          <p class="home_text-1" data-section="home" data-value="home_text-1">
+              Buenas! Soy
+          </p>
+          <p class="home_text-2"> Facundo Morales </p>
+      </div>
+      <div>
+          <p class="home_text-3 text-type" data-section="home" data-value="home_text-3"> 
+              AWS Cloud Practitioner | Salesforce Administrator | Estudiante Ingeniería en Computación
+          </p>
+      </div>
+      <div class="container_parrafo-info">
+          <p data-section="home" data-value="parrafo-info"> 
+              Buenas, soyTécnico junior en Tata Consultancy Services, especializado en soporte IT y entornos corporativos internacionales.
+              Bienvenido a mi portafolio, donde combino mi experiencia en Service Desk, Salesforce y AWS Cloud para seguir creciendo en el mundo tecnológico.
+          </p>
+      </div>
+      <div class="container_button">
+        <a id="cv-button" class="cv_button" href="https://drive.google.com/file/d/1u98BvAAz7HitK5--BDSUQu5pZh4ECjW2/view" target="_blank" data-section="home" data-value="cv_button">
+            Descargar CV
+        </a>
+        <a class="contact_button" href="#contacto" data-section="home" data-value="contact_button">
+            Contacto
+        </a>
+    </div>        
+  </div>
+  <div class="links">
+      <a href="https://www.linkedin.com/in/facundo-morales-weston-524642134/" target="_blank">
+          <img src="./assets/images/icon/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+      </a>
+      <a href="https://github.com/facundomorales999" target="_blank">
+          <img src="./assets/images/icon/icon-github.png" alt="GitHub" class="icon-github">
+      </a>
+      <a href="https://greenrangerco.slack.com/team/U07L24983AQ" target="_blank">
+          <img src="./assets/images/icon/icon-slack.png" alt="Slack" class="icon-slack">
+      </a>
+      <a href="https://www.credly.com/users/facundo-morales" target="_blank">
+          <img src="./assets/images/icon/icon-credly.png" alt="Credly" class="icon-credly">
+      </a>
+  </div>
+</section>
+
+<!-- Sobre mí -->
+<section class="sobreMi" id="sobreMi">
+  <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre mí</h1>
+
+  <div class="container_content-sobreMi" data-aos="fade-right">
+      <div class="container_texto-sobreMi">
+          
+          <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">
+              Soy Facundo Morales, apasionado por la tecnología y actualmente en crecimiento dentro del mundo IT.
+
+              En Tata Consultancy Services me desempeño como IT Service Desk Analyst, brindando soporte a usuarios internacionales en entornos corporativos complejos. Mi experiencia incluye resolución de incidencias en Windows 11, Office 365, Outlook, OneDrive y herramientas de SSO (Duo, Zscaler, Okta), además de la gestión de tickets con ServiceNow.
+
+              Previamente me formé en Salesforce y AWS Cloud, lo que me permite tener una visión integral entre soporte técnico y plataformas en la nube. Me considero responsable, adaptable y con gran capacidad de aprendizaje continuo, siempre buscando aportar soluciones efectivas y mejorar la experiencia de los usuarios.
+          </span>
+      </div>
+
+      <picture class="container_image-sobreMi">
+          <img class="image_sobreMi" src="./assets/images/deco/image-sobreMi.png" alt="Ilustración">
+      </picture>
+  </div>
+</section>
+
+<!-- Habilidades -->
+<section class="habilidades" id="habilidades">
+  <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Habilidades</h1>
+
+  <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+  <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+  <div class="cards_container--habilidades">  
+      <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+          <img src="./assets/images/icon/icon-SalesForce.png" alt="Salesforce">
+          <p> Salesforce </p>
+      </div> 
+
+      <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+          <img src="./assets/images/icon/icon-aws.png" alt="AWS Cloud">
+          <p> AWS Cloud </p>
+      </div> 
+      
+      <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+          <img src="./assets/images/icon/icon-googleCloud.svg" alt="Google Cloud">
+          <p> Google Cloud </p>
+      </div> 
+
+      <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+          <img src="./assets/images/icon/icon-html.png" alt="HTML 5">
+          <p> HTML 5 </p>
+      </div> 
+      
+      <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+          <img src="./assets/images/icon/icon-csharp.jpeg" alt="C#">
+          <p> C# </p>
+      </div>
+
+      <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+          <img src="./assets/images/icon/icon-js.png" alt="JavaScript">
+          <p> JavaScript </p>
+      </div>
+
+      <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+          <img src="./assets/images/icon/icon-python.png" alt="Python">
+          <p> Python </p>
+      </div>
+
+      <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+          <img src="./assets/images/icon/icon-git.png" alt="Git">
+          <p> Git </p>
+      </div>
+      
+      <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+          <img src="./assets/images/icon/icon-github-hab.png" alt="GitHub">
+          <p> Github </p>
+      </div>
+
+      <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+          <img src="./assets/images/icon/icon-trello.png" alt="Trello">
+          <p> Trello </p>
+      </div>
+
+      <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+          <img src="./assets/images/icon/icon-Docker.png" alt="Docker">
+          <p> Docker </p>
+      </div>
+
+      <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+          <img src="./assets/images/icon/icon-mongoDB.png" alt="MongoDB">
+          <p> Mongo DB </p>
+      </div>
+  </div>
+</section>
+
+<!-- Experiencia Laboral -->
+<section class="experienciaLaboral" id="experienciaLaboral">
+<h1 data-section="experiencia.title" data-value="title" data-aos="fade-up">Experiencia Laboral</h1>
+
+  <div class="grupo-cards">
+    <!-- Rol 1: Técnico Junior (Salesforce Trainee) -->
+    <article class="cards--experiencia" data-aos="fade-up" data-aos-duration="500">
+      <img src="./assets/images/icon/icon-salesforce.png" alt="Salesforce" class="exp-logo">
+      <div class="container_texto--experiencia">
+        <p class="titulo">Técnico Junior (Aprendizaje Salesforce)</p>
+        <p class="empresa">Tata Consultancy Services</p>
+        <p class="tiempo">Junio 2025 – Agosto 2025</p>
+        <ul class="tareas">
+          <li>Formación intensiva en Salesforce: objetos, permisos, automatización.</li>
+          <li>Prácticas con LWC, Apex y SOQL en proyectos de aprendizaje.</li>
+          <li>Buenas prácticas con Salesforce DX y control de versiones.</li>
+        </ul>
+        <div class="chips">
+          <span>Salesforce</span><span>Developer</span><span>Administrator</span>
+          <span>Automation Tools</span><span>LWC</span><span>APEX</span><span>Ingles</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Rol 2: IT Service Desk (Asistencia en Assured Partners, dentro de TCS) -->
+    <article class="cards--experiencia" data-aos="fade-up" data-aos-duration="700">
+      <img src="./assets/images/icon/AssuredPartners-logo.png" alt="Gallagher Assured Partners" class="exp-logo">
+      <div class="container_texto--experiencia">
+        <p class="titulo">IT Service Support</p>
+        <p class="empresa">Assured Partners (a través de Tata Consultancy Services)</p>
+        <p class="tiempo">Septiembre 2025 – Actualidad</p>
+        <ul class="tareas">
+          <li>Soporte técnico en inglés para usuarios finales.</li>
+          <li>Diagnóstico de Windows 11, Outlook, OneDrive, y mapeo de drives.</li>
+          <li>Manejo de accesos y SSO (Duo, Zscaler), escalamiento y documentación.</li>
+        </ul>
+        <div class="chips">
+          <span>Service Desk</span><span>Service now</span><span>Bomgar</span>
+          <span>Nerdio</span><span>Tanium</span><span>Zscaler</span><span>Inglés</span>
+        </div>      
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- 
+<section class="experiencia" id="experiencia">
+  <h1 data-i18n="experiencia.title">Experiencia Laboral</h1>
+
+  <div class="grupo-cards" id="experiencia-list"></div>
+
+  <template id="tpl-exp-card">
+    <article class="cards--experiencia">
+      <img class="exp-logo" alt="logo" src="assets/tcs.png" />
+      <div class="container_texto--experiencia">
+        <p class="titulo"></p>
+        <p class="empresa"></p>
+        <p class="tiempo"></p>
+        <ul class="tareas"></ul>
+        <div class="chips"></div>
+      </div>
+    </article>
+  </template>
+</section>
+
+-->
+
+
+
+
+<!-- Formación -->
+<section class="formacion" id="formacion">
+  <h1 data-section="formacion" data-value="title" data-aos="fade-up">Formación Académica y Credenciales</h1>
+
+  <!-- Universidad -->
+  <div class="categoria-formacion">
+    <h2 class="titulo-categoria">Universidad</h2>
+    <div class="grupo-cards">
+      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+        <img class="logo-aws" src="./assets/images/icon/icon-ucu.png" alt="UCU">
+        <div class="container_texto--formacion">
+          <p data-section="formacion" data-value="formacion_U1">Ingeniería en Informática</p>
+          <p data-section="formacion" data-value="formacion_U2">Universidad Católica del Uruguay</p>
+          <p data-section="formacion" data-value="tiempo-formacion_U1">2020 - 2022</p>
+        </div>
+      </div>
+
+      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+        <img class="logo-aws" src="./assets/images/icon/cenur-logo.png" alt="UDELAR">
+          <div class="container_texto--formacion">
+            <p data-section="formacion" data-value="formacion_U3">Ingeniería en Computación</p>
+            <p data-section="formacion" data-value="formacion_U4">Universidad de la Republica</p>
+            <p data-section="formacion" data-value="tiempo-formacion_U2">2025 - Actualidad</p>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Salesforce
+  <div class="categoria-formacion">
+    <h2 class="titulo-categoria"> Salesforce Certified </h2>
+    <div class="grupo-cards">
+      <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+        <img class="logo-aws" src="" alt="Platform Admin Certificate">
+        <div class="container_texto--formacion">
+          <p data-section="formacion" data-value="formacion_AWS1">Platform Administrator</p>
+          <p data-section="formacion" data-value="formacion_AWS2"></p>
+          <a href="https://www.credly.com/badges/1bc8fce0-712b-45fb-8ad1-c8bde1e5c76c/public_url" target="_blank">
+            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
+          </a>
+        </div>
+      </div> 
+    </div>
+  </div>  -->  
+
+  <!-- AWS -->
+  <div class="categoria-formacion">
+    <h2 class="titulo-categoria">Amazon Web Services</h2>
+    <div class="grupo-cards">
+      <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+        <img class="logo-aws" src="./assets/images/icon/aws1.png" alt="AWS Cloud Practitioner">
+        <div class="container_texto--formacion">
+          <p data-section="formacion" data-value="formacion_AWS1">AWS Certified</p>
+          <p data-section="formacion" data-value="formacion_AWS2">Cloud Practitioner</p>
+          <a href="https://www.credly.com/badges/1bc8fce0-712b-45fb-8ad1-c8bde1e5c76c/public_url" target="_blank">
+            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
+        <img class="logo-aws" src="./assets/images/icon/aws2.png" alt="AWS re/Start Graduate">
+        <div class="container_texto--formacion">
+          <p data-section="formacion" data-value="formacion_AWS3">AWS re/Start</p>
+          <p data-section="formacion" data-value="formacion_AWS4">Graduate</p>
+          <a href="https://www.credly.com/badges/98a8f96a-e498-4659-a9be-ba008bd6eb6d/public_url" target="_blank">
+            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+          <img class="logo-aws" src="./assets/images/icon/CloudQuest_logo.png" alt="Cloud Quest">
+          <div class="container_texto--formacion">
+            <p data-section="formacion" data-value="formacion_AWS5">AWS Cloud Quest:</p>
+            <p data-section="formacion" data-value="formacion_AWS6">Cloud Practitioner</p>
+            <a href="https://www.credly.com/earner/earned/badge/8db9eff0-e23d-4601-8571-3df3b71becb2" target="_blank">
+              <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
+            </a>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Coursera -->
+  <div class="categoria-formacion">
+    <h2 class="titulo-categoria">Coursera</h2>
+      <div class="grupo-cards">
+        <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+          <img class="logo-aws" src="./assets/images/icon/Coursera_1-logo.png" alt="Databases & SQL">
+          <div class="container_texto--formacion">
+            <p data-section="formacion" data-value="formacion_C1">Databases and SQL</p>
+            <p data-section="formacion" data-value="formacion_C2">for Data Science with Python</p>
+            <a href="https://www.coursera.org/account/accomplishments/verify/ZX0B8GVN70PW" target="_blank">
+              <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
+            </a>
+          </div>
+        </div>
+  
+        <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
+          <img class="logo-aws" src="./assets/images/icon/Coursera_2-logo.png" alt="Python for Data Science">
+          <div class="container_texto--formacion">
+            <p data-section="formacion" data-value="formacion_C3">Python for Data Science,</p>
+            <p data-section="formacion" data-value="formacion_C4">AI & Development</p>
+            <a href="https://www.coursera.org/account/accomplishments/verify/KW69XTRLSMXY" target="_blank">
+              <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
+            </a>
+          </div>
+        </div>
+        <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+          <img class="logo-aws" src="./assets/images/icon/Coursera_3-logo.png" alt="Fundamentos gestión de Proyectos">
+          <div class="container_texto--formacion">
+            <p data-section="formacion" data-value="formacion_C5">Fundamentos de la gestión de proyectos</p>
+            <a href="https://www.coursera.org/account/accomplishments/verify/VEZCVL6BL5TW" target="_blank">
+              <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
+            </a>
+          </div>
+        </div>
+        <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+          <img class="logo-aws" src="./assets/images/icon/Coursera_4-logo.png" alt="Etica">
+          <div class="container_texto--formacion">
+            <p data-section="formacion" data-value="formacion_C6">Inteligencia Artificial:</p>
+            <p data-section="formacion" data-value="formacion_C7">Retos éticos y sociales</p>
+            <a href="https://coursera.org/share/e6587a8d476e786f1c35c5ec96cb5a6c" target="_blank">
+              <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <header class="header">
-        <img src="./assets/images/deco/logo-FM.png" alt="Logo Portafolio" class="logo__header">
-
-        <nav class="nav_menu not-active">
-            <a href="#home" class="active">Home</a>
-            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
-            <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
-            <a href="#formacion" data-section="menu" data-value="item4">Formación</a>
-            <a href="#proyectos" data-section="menu" data-value="item5">Proyectos</a>
-            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
-
-            <!-- Idiomas de la página -->
-            <div id="flags" class="flags">
-                <div class="flags__item" data-language="es">
-                    <img src="./assets/images/icon/icon-spain.png" alt="Español/Spain">
-                </div>
-                <div class="flags__item" data-language="en">
-                    <img src="./assets/images/icon/icon-en.png" alt="Inglés/English">
-                </div>
-            </div>
-        </nav>
-
-        <div id="button" class="btn not-active">
-            <span></span>
-            <span></span>
-            <span></span>
+  <!-- Jóvenes a Programar -->
+  <div class="categoria-formacion">
+    <h2 class="titulo-categoria">Jóvenes a Programar</h2>
+    <div class="grupo-cards">
+      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+        <img class="logo-aws" src="./assets/images/icon/icon-jap.png" alt="JAP">
+        <div class="container_texto--formacion">
+          <p data-section="formacion" data-value="formacion_J1">Jóvenes a Programar</p>
+          <p data-section="formacion" data-value="formacion_J2">Testing</p>
+          <a href="https://drive.google.com/file/d/1YVdNtiVKTfntO_3cJhe7J_PIbSCg1jBj/view?usp=sharing" target="_blank">
+            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button5">Más información</button>
+          </a>
         </div>
-    </header>
-
-    <main>
-        <!-- Home -->
-        <section class="home" id="home">
-            <picture class="container_image-home" data-aos="zoom-in">
-                <img class="image_home" src="./assets/images/deco/image-home.png" alt="Foto de perfil">
-            </picture>
-            
-            <div class="home_info">
-                <div class="container_text-info">
-                    <p class="home_text-1" data-section="home" data-value="home_text-1">
-                        Buenas! Soy
-                    </p>
-                    <p class="home_text-2"> Facundo Morales </p>
-                </div>
-                <div>
-                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3"> 
-                        AWS Cloud Practitioner | Estudiante Ingeniería en Computación
-                    </p>
-                </div>
-                <div class="container_parrafo-info">
-                    <p data-section="home" data-value="parrafo-info"> 
-                        Soy estudiante de informática con pasión por el diseño de soluciones, tanto en la nube como a nivel estructural. <br> Me encanta explorar distintas áreas del desarrollo, lo que me ha permitido construir un perfil versátil y adaptable. <br> Busco combinar creatividad y funcionalidad para resolver problemas de forma eficiente.
-                    </p>
-                </div>
-                <div class="container_button">
-                  <a id="cv-button" class="cv_button" href="https://drive.google.com/file/d/1u98BvAAz7HitK5--BDSUQu5pZh4ECjW2/view" target="_blank" data-section="home" data-value="cv_button">
-                      Descargar CV
-                  </a>
-                  <a class="contact_button" href="#contacto" data-section="home" data-value="contact_button">
-                      Contacto
-                  </a>
-              </div>        
-            </div>
-            <div class="links">
-                <a href="https://www.linkedin.com/in/facundo-morales-weston-524642134/" target="_blank">
-                    <img src="./assets/images/icon/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
-                </a>
-                <a href="https://github.com/facundomorales999" target="_blank">
-                    <img src="./assets/images/icon/icon-github.png" alt="GitHub" class="icon-github">
-                </a>
-                <a href="https://greenrangerco.slack.com/team/U07L24983AQ" target="_blank">
-                    <img src="./assets/images/icon/icon-slack.png" alt="Slack" class="icon-slack">
-                </a>
-                <a href="https://www.credly.com/users/facundo-morales" target="_blank">
-                    <img src="./assets/images/icon/icon-credly.png" alt="Credly" class="icon-credly">
-                </a>
-            </div>
-        </section>
-
-        <!-- Sobre mí -->
-        <section class="sobreMi" id="sobreMi">
-            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre mí</h1>
-
-            <div class="container_content-sobreMi" data-aos="fade-right">
-                <div class="container_texto-sobreMi">
-                    <span class="title_sobreMi"> Facundo Morales Weston </span>
-                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">
-                        Soy una persona responsable, puntual y organizada, con gran capacidad de adaptación a distintos entornos. <br> Busco mi primera oportunidad laboral en el sector IT, donde pueda aplicar mis habilidades y marcar la diferencia.<br> Estoy preparado para asumir nuevos desafíos y contribuir de forma efectiva al equipo.
-                    </span>
-                </div>
-
-                <picture class="container_image-sobreMi">
-                    <img class="image_sobreMi" src="./assets/images/deco/image-sobreMi.png" alt="Ilustración">
-                </picture>
-            </div>
-        </section>
-
-        <!-- Habilidades -->
-        <section class="habilidades" id="habilidades">
-            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Habilidades</h1>
-
-            <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
-            <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
-
-            <div class="cards_container--habilidades">     
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
-                    <img src="./assets/images/icon/icon-aws.png" alt="AWS Cloud">
-                    <p> AWS Cloud </p>
-                </div> 
-                
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
-                    <img src="./assets/images/icon/icon-googleCloud.svg" alt="Google Cloud">
-                    <p> Google Cloud </p>
-                </div> 
-
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
-                    <img src="./assets/images/icon/icon-html.png" alt="HTML 5">
-                    <p> HTML 5 </p>
-                </div> 
-                
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
-                    <img src="./assets/images/icon/icon-csharp.jpeg" alt="C#">
-                    <p> C# </p>
-                </div>
-
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
-                    <img src="./assets/images/icon/icon-js.png" alt="JavaScript">
-                    <p> JavaScript </p>
-                </div>
-
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
-                    <img src="./assets/images/icon/icon-python.png" alt="Python">
-                    <p> Python </p>
-                </div>
-
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
-                    <img src="./assets/images/icon/icon-git.png" alt="Git">
-                    <p> Git </p>
-                </div>
-                
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
-                    <img src="./assets/images/icon/icon-github-hab.png" alt="GitHub">
-                    <p> Github </p>
-                </div>
-
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
-                    <img src="./assets/images/icon/icon-trello.png" alt="Trello">
-                    <p> Trello </p>
-                </div>
-
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
-                    <img src="./assets/images/icon/icon-Docker.png" alt="Docker">
-                    <p> Docker </p>
-                </div>
-
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
-                    <img src="./assets/images/icon/icon-mongoDB.png" alt="MongoDB">
-                    <p> Mongo DB </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Formación -->
-        <section class="formacion" id="formacion">
-            <h1 data-section="formacion" data-value="title" data-aos="fade-up">Formación Académica y Credenciales</h1>
-          
-            <!-- Universidad -->
-            <div class="categoria-formacion">
-              <h2 class="titulo-categoria">Universidad</h2>
-              <div class="grupo-cards">
-                <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-                  <img class="logo-aws" src="./assets/images/icon/icon-ucu.png" alt="UCU">
-                  <div class="container_texto--formacion">
-                    <p data-section="formacion" data-value="formacion_U1">Ingeniería en Informática</p>
-                    <p data-section="formacion" data-value="formacion_U2">Universidad Católica del Uruguay</p>
-                    <p data-section="formacion" data-value="tiempo-formacion_U1">2020 - 2022</p>
-                  </div>
-                </div>
-
-                <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-                    <img class="logo-aws" src="./assets/images/icon/cenur-logo.png" alt="UDELAR">
-                    <div class="container_texto--formacion">
-                      <p data-section="formacion" data-value="formacion_U3">Ingeniería en Computación</p>
-                      <p data-section="formacion" data-value="formacion_U4">Universidad de la Republica</p>
-                      <p data-section="formacion" data-value="tiempo-formacion_U2">2025 - Actualidad</p>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            
-            <!-- AWS -->
-            <div class="categoria-formacion">
-              <h2 class="titulo-categoria">Amazon Web Services</h2>
-              <div class="grupo-cards">
-                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-                  <img class="logo-aws" src="./assets/images/icon/aws1.png" alt="AWS Cloud Practitioner">
-                  <div class="container_texto--formacion">
-                    <p data-section="formacion" data-value="formacion_AWS1">AWS Certified</p>
-                    <p data-section="formacion" data-value="formacion_AWS2">Cloud Practitioner</p>
-                    <a href="https://www.credly.com/badges/1bc8fce0-712b-45fb-8ad1-c8bde1e5c76c/public_url" target="_blank">
-                      <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-                    </a>
-                  </div>
-                </div>
-          
-                <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
-                  <img class="logo-aws" src="./assets/images/icon/aws2.png" alt="AWS re/Start Graduate">
-                  <div class="container_texto--formacion">
-                    <p data-section="formacion" data-value="formacion_AWS3">AWS re/Start</p>
-                    <p data-section="formacion" data-value="formacion_AWS4">Graduate</p>
-                    <a href="https://www.credly.com/badges/98a8f96a-e498-4659-a9be-ba008bd6eb6d/public_url" target="_blank">
-                      <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-                    </a>
-                  </div>
-                </div>
-                <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-                    <img class="logo-aws" src="./assets/images/icon/CloudQuest_logo.png" alt="Cloud Quest">
-                    <div class="container_texto--formacion">
-                      <p data-section="formacion" data-value="formacion_AWS5">AWS Cloud Quest:</p>
-                      <p data-section="formacion" data-value="formacion_AWS6">Cloud Practitioner</p>
-                      <a href="https://www.credly.com/earner/earned/badge/8db9eff0-e23d-4601-8571-3df3b71becb2" target="_blank">
-                        <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-                      </a>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          
-            <!-- Coursera -->
-            <div class="categoria-formacion">
-                <h2 class="titulo-categoria">Coursera</h2>
-                <div class="grupo-cards">
-                  <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-                    <img class="logo-aws" src="./assets/images/icon/Coursera_1-logo.png" alt="Databases & SQL">
-                    <div class="container_texto--formacion">
-                      <p data-section="formacion" data-value="formacion_C1">Databases and SQL</p>
-                      <p data-section="formacion" data-value="formacion_C2">for Data Science with Python</p>
-                      <a href="https://www.coursera.org/account/accomplishments/verify/ZX0B8GVN70PW" target="_blank">
-                        <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-                      </a>
-                    </div>
-                  </div>
-            
-                  <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
-                    <img class="logo-aws" src="./assets/images/icon/Coursera_2-logo.png" alt="Python for Data Science">
-                    <div class="container_texto--formacion">
-                      <p data-section="formacion" data-value="formacion_C3">Python for Data Science,</p>
-                      <p data-section="formacion" data-value="formacion_C4">AI & Development</p>
-                      <a href="https://www.coursera.org/account/accomplishments/verify/KW69XTRLSMXY" target="_blank">
-                        <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-                    <img class="logo-aws" src="./assets/images/icon/Coursera_3-logo.png" alt="Fundamentos gestión de Proyectos">
-                    <div class="container_texto--formacion">
-                      <p data-section="formacion" data-value="formacion_C5">Fundamentos de la gestión de proyectos</p>
-                      <a href="https://www.coursera.org/account/accomplishments/verify/VEZCVL6BL5TW" target="_blank">
-                        <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-                    <img class="logo-aws" src="./assets/images/icon/Coursera_4-logo.png" alt="Etica">
-                    <div class="container_texto--formacion">
-                      <p data-section="formacion" data-value="formacion_C6">Inteligencia Artificial:</p>
-                      <p data-section="formacion" data-value="formacion_C7">Retos éticos y sociales</p>
-                      <a href="https://coursera.org/share/e6587a8d476e786f1c35c5ec96cb5a6c" target="_blank">
-                        <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          
-            <!-- Jóvenes a Programar -->
-            <div class="categoria-formacion">
-              <h2 class="titulo-categoria">Jóvenes a Programar</h2>
-              <div class="grupo-cards">
-                <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-                  <img class="logo-aws" src="./assets/images/icon/icon-jap.png" alt="JAP">
-                  <div class="container_texto--formacion">
-                    <p data-section="formacion" data-value="formacion_J1">Jóvenes a Programar</p>
-                    <p data-section="formacion" data-value="formacion_J2">Testing</p>
-                    <a href="https://drive.google.com/file/d/1YVdNtiVKTfntO_3cJhe7J_PIbSCg1jBj/view?usp=sharing" target="_blank">
-                      <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button5">Más información</button>
-                    </a>
-                  </div>
-                </div>
-                <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-                    <img class="logo-forge" src="./assets/images/icon/ProgramacionWeb-icon.png" alt="Programación">
-                    <div class="container_texto--formacion">
-                      <p data-section="formacion" data-value="formacion_J3">Programacion Web </p>
-                      <p data-section="formacion" data-value="formacion_J4">Desde Cero</p>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          
-            <!-- Forge -->
-            <div class="categoria-formacion">
-              <h2 class="titulo-categoria">Forge</h2>
-              <div class="grupo-cards">
-                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-                  <img class="logo-forge" src="./assets/images/icon/forge1.png" alt="Trabajo en Equipo">
-                  <div class="container_texto--formacion">
-                    <p data-section="formacion" data-value="CredencialForge1">Trabajo en Equipo</p>
-                    <a href="https://www.acreditta.com/credential/55cc5069-7b96-48e3-9e29-8c7165461c4e" target="_blank">
-                      <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-                    </a>
-                  </div>
-                </div>
-          
-                <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-                  <img class="logo-forge" src="./assets/images/icon/forge2.png" alt="Liderazgo Persoanl">
-                  <div class="container_texto--formacion">
-                    <p data-section="formacion" data-value="CredencialForge2">Liderazgo personal</p>
-                    <a href="https://www.acreditta.com/credential/5926cd13-cf59-4cc7-92a5-32276d339638" target="_blank">
-                      <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-                    </a>
-                  </div>
-                </div>
-          
-                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-                  <img class="logo-forge" src="./assets/images/icon/forge3.png" alt="Orientación al Logro">
-                  <div class="container_texto--formacion">
-                    <p data-section="formacion" data-value="CredencialForge3">Orientación al logro</p>
-                    <a href="https://www.acreditta.com/credential/950a4f3d-5215-4e84-807c-948c2a364fbc" target="_blank">
-                      <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-                    </a>
-                  </div>
-                </div>
-          
-                <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-                  <img class="logo-forge" src="./assets/images/icon/forge4.png" alt="Compromiso">
-                  <div class="container_texto--formacion">
-                    <p data-section="formacion" data-value="CredencialForge4">Compromiso con el aprendizaje</p>
-                    <a href="https://www.acreditta.com/credential/2c173c3a-696f-4d43-95d9-627ff123c9be" target="_blank">
-                      <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-                    </a>
-                  </div>
-                </div>
-          
-                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-                  <img class="logo-forge" src="./assets/images/icon/forge5.png" alt="Trabajo en Equipo">
-                  <div class="container_texto--formacion">
-                    <p data-section="formacion" data-value="CredencialForge1">Trabajo en Equipo</p>
-                    <a href="https://view.pok.tech/c/d7e87f28-98eb-4319-ae47-e86be50f3f30" target="_blank">
-                      <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>          
-
-        <!-- Proyectos -->
-        <section class="proyectos" id="proyectos">
-            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Proyectos</h1>
-
-            <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
-            <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
-            
-            <div class="cards_container--proyectos">
-                <!-- PRIMER PROYECTO -->
-                <div class="cards--proyectos card_JuegoBN" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
-                    <div class="container_imgCard--proyectos">
-                        <img src="./assets/images/icon/icon-batalla-naval.jpeg" alt="Proyecto: Juego de la Batalla Naval">
-                    </div>
-
-                    <div class="container_textCard--proyectos">
-                        <h2 data-section="proyectos" data-value="title-proyecto1">Juego Batalla Naval</h2>
-                        <p data-section="proyectos" data-value="info-proyecto1">
-                            Te embarcaras en una épica batalla, lejos de ser el juego convencional y con bastantes giros. 
-                        </p>
-                    </div>
-                    <div class="container_btn--proyectos">
-                        <a href="https://github.com/facundomorales999/NavyW3_Bot" target="_blank">
-                            <button class="btn_repo">
-                                <img src="./assets/images/icon/icon-githubProyecto.png" alt="Repositorio de github">REPO
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- 2do PROYECTO -->
-                <div class="cards--proyectos card_JuegoBN" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
-                    <div class="container_imgCard--proyectos">
-                        <img src="./assets/images/icon/icon-sitioWebS3.jpeg" alt="Proyecto: Pagina Web Estatica">
-                    </div>
-
-                    <div class="container_textCard--proyectos">
-                        <h2 data-section="proyectos" data-value="title-proyecto2">Sitio Web usando AWS S3</h2>
-                        <p data-section="proyectos" data-value="info-proyecto2">
-                            Planteamos un tutorial y un ejemplo de como desplegar un sitio web utilizando amazon S3.
-                        </p>
-                    </div>
-
-                    <div class="container_btn--proyectos">
-
-                        <a href="https://bettercallus.s3.us-east-2.amazonaws.com/ProyectoFinal_Bootcamp-main/inicio.html" target="_blank">
-                            <button class="btn_demo">
-                                <img src="./assets/images/icon/icon-demoProyecto.png" alt="Demostración">DEMO
-                            </button>
-                        </a>
-                        <a href="https://github.com/facundomorales999/ProyectoFinal_Bootcamp" target="_blank">
-                            <button class="btn_repo">
-                                <img src="./assets/images/icon/icon-githubProyecto.png" alt="Repositorio de github">REPO
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                <!-- TERCER PROYECTO -->
-                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
-                    <div class="container_imgCard--proyectos">
-                        <img src="./assets/images/icon/icon-Portafolio.png" alt="Proyecto: Portafolio">
-                    </div>
-
-                    <div class="container_textCard--proyectos text-portafolio">
-                        <h2 data-section="proyectos" data-value="title-proyecto3">Portafolio</h2>
-                        <p data-section="proyectos" data-value="info-proyecto3">
-                            Mi portafolio web, donde se encuentran algunos de mis proyectos destacados, mis habilidades técnicas y un poco sobre mi formación.
-                        </p>
-                    </div>
-
-                    <div class="container_btn--proyectos">          
-                        <a href="https://facundomorales999.github.io/Mi-pagina-web/" target="_blank">
-                            <button class="btn_demo">
-                                <img src="./assets/images/icon/icon-demoProyecto.png" alt="Demostración">DEMO
-                            </button>
-                        </a>
-
-                        <a href="https://github.com/facundomorales999/Mi-pagina-web" target="_blank">
-                            <button class="btn_repo">
-                                <img src="./assets/images/icon/icon-githubProyecto.png" alt="Repositorio de Github">REPO
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                <!-- Cuarto PROYECTO -->
-                    <div class="cards--proyectos card_Mail" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
-                        <div class="container_imgCard--proyectos">
-                            <img src="./assets/images/icon/Mails.png" alt="Proyecto: Mails">
-                        </div>
-                
-                        <div class="container_textCard--proyectos text-portafolio">
-                            <h2 data-section="proyectos" data-value="title-proyecto4">Serverless Proyect</h2>
-                                <p data-section="proyectos" data-value="info-proyecto4">
-                                    Sistema de envío masivo de correos electrónicos.
-                                    Utilizando servicios serverless de AWS para escalar automáticamente.                                   
-                                </p>
-                        </div>  
-                        <div class="container_btn--proyectos">          
-                            <a href="https://github.com/facundomorales999/Mail-Tails" target="_blank">
-                                <button class="btn_repo">
-                                    <img src="./assets/images/icon/icon-githubProyecto.png" alt="Repositorio de Github">REPO
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-        </section>
-
-        <!-- Contacto -->
-        <section class="contacto" id="contacto">
-            <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
-
-            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                <div class="container--contacto">
-                    <div class="container_text--contacto">
-                        <p data-section="contacto" data-value="text">
-                            Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.
-                        </p>
-                    </div>
-                    
-                    <!-- Formulario adaptado para Netlify -->
-                    <form id="form" class="form-contact" name="contacto-portafolio" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-
-                        <!-- Campo oculto para evitar bots -->
-                        <input type="hidden" name="form-name" value="contacto-portafolio" />
-
-                        <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
-                        <input id="email" type="email" name="email" placeholder="Correo" required>
-                        <input id="asunto" type="text" name="affair" placeholder="Asunto | Subject" required> 
-                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message" required></textarea>
-    
-                        <div class="btn_form--contacto">
-                            <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Enviar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>         
-    </main>
-
-    <footer>
-        <div class="contianer--footer">
-            <div class="container_redes-footer">
-                <a href="https://www.linkedin.com/in/facundo-morales-weston-524642134/" target="_blank">
-                    <img src="./assets/images/icon/icon-linkedin.png" alt="LinkedIn">
-                </a>
-                <a href="https://github.com/facundomorales999" target="_blank">
-                    <img src="./assets/images/icon/icon-github.png" alt="GitHub">
-                </a>
-                <a href="https://www.instagram.com/facumorales__/" target="_blank">
-                    <img src="./assets/images/icon/icon-instagram.png" alt="Instagram">
-                </a>
-                <a href="mailto:facumorales2908@gmail.com" target="_blank">
-                    <img src="./assets/images/icon/icon-mail.png" alt="gmail">
-                </a>
-            </div>
-        </div>
-    </footer>
-
-    <div class="go-top-container">
-        <div class="go-top-button">
-            <i class="fas fa-chevron-up"></i>
+      </div>
+      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+          <img class="logo-forge" src="./assets/images/icon/ProgramacionWeb-icon.png" alt="Programación">
+          <div class="container_texto--formacion">
+            <p data-section="formacion" data-value="formacion_J3">Programacion Web </p>
+            <p data-section="formacion" data-value="formacion_J4">Desde Cero</p>
+          </div>
         </div>
     </div>
+  </div>
 
-    <!-- Archivo Js -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Forge -->
+  <div class="categoria-formacion">
+    <h2 class="titulo-categoria">Forge</h2>
+    <div class="grupo-cards">
+      <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+        <img class="logo-forge" src="./assets/images/icon/forge1.png" alt="Trabajo en Equipo">
+        <div class="container_texto--formacion">
+          <p data-section="formacion" data-value="CredencialForge1">Trabajo en Equipo</p>
+          <a href="https://www.acreditta.com/credential/55cc5069-7b96-48e3-9e29-8c7165461c4e" target="_blank">
+            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
+          </a>
+        </div>
+      </div>
 
-    <!-- Mi script -->
-    <script src="./script.js"></script>
+      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+        <img class="logo-forge" src="./assets/images/icon/forge2.png" alt="Liderazgo Persoanl">
+        <div class="container_texto--formacion">
+          <p data-section="formacion" data-value="CredencialForge2">Liderazgo personal</p>
+          <a href="https://www.acreditta.com/credential/5926cd13-cf59-4cc7-92a5-32276d339638" target="_blank">
+            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+        <img class="logo-forge" src="./assets/images/icon/forge3.png" alt="Orientación al Logro">
+        <div class="container_texto--formacion">
+          <p data-section="formacion" data-value="CredencialForge3">Orientación al logro</p>
+          <a href="https://www.acreditta.com/credential/950a4f3d-5215-4e84-807c-948c2a364fbc" target="_blank">
+            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+        <img class="logo-forge" src="./assets/images/icon/forge4.png" alt="Compromiso">
+        <div class="container_texto--formacion">
+          <p data-section="formacion" data-value="CredencialForge4">Compromiso con el aprendizaje</p>
+          <a href="https://www.acreditta.com/credential/2c173c3a-696f-4d43-95d9-627ff123c9be" target="_blank">
+            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+        <img class="logo-forge" src="./assets/images/icon/forge5.png" alt="Trabajo en Equipo">
+        <div class="container_texto--formacion">
+          <p data-section="formacion" data-value="CredencialForge1">Trabajo en Equipo</p>
+          <a href="https://view.pok.tech/c/d7e87f28-98eb-4319-ae47-e86be50f3f30" target="_blank">
+            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>          
+
+<!-- Proyectos -->
+<section class="proyectos" id="proyectos">
+  <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Proyectos</h1>
+
+  <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+  <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+  
+  <div class="cards_container--proyectos">
+      <!-- PRIMER PROYECTO -->
+      <div class="cards--proyectos card_JuegoBN" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+          <div class="container_imgCard--proyectos">
+              <img src="./assets/images/icon/icon-batalla-naval.jpeg" alt="Proyecto: Juego de la Batalla Naval">
+          </div>
+
+          <div class="container_textCard--proyectos">
+              <h2 data-section="proyectos" data-value="title-proyecto1">Juego Batalla Naval</h2>
+              <p data-section="proyectos" data-value="info-proyecto1">
+                  Te embarcaras en una épica batalla, lejos de ser el juego convencional y con bastantes giros. 
+              </p>
+          </div>
+          <div class="container_btn--proyectos">
+              <a href="https://github.com/facundomorales999/NavyW3_Bot" target="_blank">
+                  <button class="btn_repo">
+                      <img src="./assets/images/icon/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                  </button>
+              </a>
+          </div>
+      </div>
+      
+      <!-- 2do PROYECTO -->
+      <div class="cards--proyectos card_JuegoBN" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+          <div class="container_imgCard--proyectos">
+              <img src="./assets/images/icon/icon-sitioWebS3.jpeg" alt="Proyecto: Pagina Web Estatica">
+          </div>
+
+          <div class="container_textCard--proyectos">
+              <h2 data-section="proyectos" data-value="title-proyecto2">Sitio Web usando AWS S3</h2>
+              <p data-section="proyectos" data-value="info-proyecto2">
+                  Planteamos un tutorial y un ejemplo de como desplegar un sitio web utilizando amazon S3.
+              </p>
+          </div>
+
+          <div class="container_btn--proyectos">
+
+              <a href="https://bettercallus.s3.us-east-2.amazonaws.com/ProyectoFinal_Bootcamp-main/inicio.html" target="_blank">
+                  <button class="btn_demo">
+                      <img src="./assets/images/icon/icon-demoProyecto.png" alt="Demostración">DEMO
+                  </button>
+              </a>
+              <a href="https://github.com/facundomorales999/ProyectoFinal_Bootcamp" target="_blank">
+                  <button class="btn_repo">
+                      <img src="./assets/images/icon/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                  </button>
+              </a>
+          </div>
+      </div>
+      <!-- TERCER PROYECTO -->
+      <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+          <div class="container_imgCard--proyectos">
+              <img src="./assets/images/icon/icon-Portafolio.png" alt="Proyecto: Portafolio">
+          </div>
+
+          <div class="container_textCard--proyectos text-portafolio">
+              <h2 data-section="proyectos" data-value="title-proyecto3">Portafolio</h2>
+              <p data-section="proyectos" data-value="info-proyecto3">
+                  Mi portafolio web, donde se encuentran algunos de mis proyectos destacados, mis habilidades técnicas y un poco sobre mi formación.
+              </p>
+          </div>
+
+          <div class="container_btn--proyectos">          
+              <a href="https://facundomorales999.github.io/Mi-pagina-web/" target="_blank">
+                  <button class="btn_demo">
+                      <img src="./assets/images/icon/icon-demoProyecto.png" alt="Demostración">DEMO
+                  </button>
+              </a>
+
+              <a href="https://github.com/facundomorales999/Mi-pagina-web" target="_blank">
+                  <button class="btn_repo">
+                      <img src="./assets/images/icon/icon-githubProyecto.png" alt="Repositorio de Github">REPO
+                  </button>
+              </a>
+          </div>
+      </div>
+      <!-- Cuarto PROYECTO -->
+          <div class="cards--proyectos card_Mail" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+              <div class="container_imgCard--proyectos">
+                  <img src="./assets/images/icon/Mails.png" alt="Proyecto: Mails">
+              </div>
+      
+              <div class="container_textCard--proyectos text-portafolio">
+                  <h2 data-section="proyectos" data-value="title-proyecto4">Serverless Proyect</h2>
+                      <p data-section="proyectos" data-value="info-proyecto4">
+                          Sistema de envío masivo de correos electrónicos.
+                          Utilizando servicios serverless de AWS para escalar automáticamente.                                   
+                      </p>
+              </div>  
+              <div class="container_btn--proyectos">          
+                  <a href="https://github.com/facundomorales999/Mail-Tails" target="_blank">
+                      <button class="btn_repo">
+                          <img src="./assets/images/icon/icon-githubProyecto.png" alt="Repositorio de Github">REPO
+                      </button>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div> 
+</section>
+
+<!-- Contacto -->
+<section class="contacto" id="contacto">
+  <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
+
+  <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+      <div class="container--contacto">
+          <div class="container_text--contacto">
+              <p data-section="contacto" data-value="text">
+                  Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.
+              </p>
+          </div>
+          
+          <!-- Formulario adaptado para Netlify -->
+          <form id="form" class="form-contact" name="contacto-portafolio" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+
+              <!-- Campo oculto para evitar bots -->
+              <input type="hidden" name="form-name" value="contacto-portafolio" />
+
+              <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
+              <input id="email" type="email" name="email" placeholder="Correo" required>
+              <input id="asunto" type="text" name="affair" placeholder="Asunto | Subject" required> 
+              <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message" required></textarea>
+
+              <div class="btn_form--contacto">
+                  <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Enviar</button>
+              </div>
+          </form>
+      </div>
+  </div>
+</section>         
+</main>
+
+<footer>
+<div class="contianer--footer">
+  <div class="container_redes-footer">
+      <a href="https://www.linkedin.com/in/facundo-morales-weston-524642134/" target="_blank">
+          <img src="./assets/images/icon/icon-linkedin.png" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/facundomorales999" target="_blank">
+          <img src="./assets/images/icon/icon-github.png" alt="GitHub">
+      </a>
+      <a href="https://www.instagram.com/facumorales__/" target="_blank">
+          <img src="./assets/images/icon/icon-instagram.png" alt="Instagram">
+      </a>
+      <a href="mailto:facumorales2908@gmail.com" target="_blank">
+          <img src="./assets/images/icon/icon-mail.png" alt="gmail">
+      </a>
+  </div>
+</div>
+</footer>
+
+<div class="go-top-container">
+<div class="go-top-button">
+  <i class="fas fa-chevron-up"></i>
+</div>
+</div>
+
+<!-- Archivo Js -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Mi script -->
+<script src="./script.js"></script>
 </body>
 </html>

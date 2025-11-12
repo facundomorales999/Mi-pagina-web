@@ -125,3 +125,32 @@ AOS.init({
 window.addEventListener('load', () => {
     AOS.refresh();
 });
+
+// suponer que i18nData = traducciones[lang];
+const roles = i18nData.experiencia.roles;
+const list = document.getElementById('experiencia-list');
+const tpl = document.getElementById('tpl-exp-card');
+
+list.innerHTML = '';
+roles.forEach(r => {
+  const node = tpl.content.cloneNode(true);
+  node.querySelector('.titulo').textContent = r.titulo;
+  node.querySelector('.empresa').textContent = r.empresa;
+  node.querySelector('.tiempo').textContent = r.tiempo;
+
+  const ul = node.querySelector('.tareas');
+  r.tareas.forEach(t => {
+    const li = document.createElement('li');
+    li.textContent = t;
+    ul.appendChild(li);
+  });
+
+  const chips = node.querySelector('.chips');
+  (r.chips || []).forEach(c => {
+    const span = document.createElement('span');
+    span.textContent = c;
+    chips.appendChild(span);
+  });
+
+  list.appendChild(node);
+});
