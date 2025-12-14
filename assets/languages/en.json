@@ -1,122 +1,141 @@
 {
-    "menu": {
-        "item2": "About me",
-        "item3": "Skills",
-        "item4": "Professional Experience",
-        "item5": "Training",
-        "item6": "Projects",
-        "item7": "Contact"
-    },
-
-    "home": {
-        "home_text-1": "Hey! I'm",
-        "home_text-3": "AWS Cloud Practitioner | Salesforce Administrator | Computer Engineering Student",
-        "parrafo-info": "Welcome! I’m a Junior IT Technician at Tata Consultancy Services, passionate about solving problems and helping people through technology. Here I bring together my experience in Service Desk, Salesforce, and AWS Cloud as I continue to grow in the tech industry.",
-        "cv_button": "Download CV",
-        "contact_button": "Contact"
-    },
-
-    "sobre-mi": {
-        "title": "About me",
-        "texto_sobreMi": "I’m Facundo Morales — a tech enthusiast constantly learning and evolving in the IT world \n \n At Tata Consultancy Services, I work as an IT Service Desk Analyst, helping international users solve technical issues across corporate systems. I handle troubleshooting in Windows 11, Office 365, Outlook, OneDrive, and SSO tools like Duo, Zscaler, and Okta, while managing incidents through ServiceNow. \n \n With a background in Salesforce and AWS Cloud, I bridge technical support and cloud technology to deliver better experiences for users. I’m known for being responsible, adaptable, and always curious — focused on learning, improving, and making technology work for people."
-    },
-
-    "habilidades": {
-        "title": "Skills"
-    },
-
-    "experiencia": {
-        "title": "Work Experience",
-        "roles": [
-            {
-            "titulo": "Junior Technician (Salesforce Training)",
-            "empresa": "Tata Consultancy Services",
-            "tiempo": "June 2025 – August 2025",
-            "tareas": [
-                "Intensive training in Salesforce: objects, permissions, and automation.",
-                "Hands-on practice with LWC, Apex, and SOQL through guided projects.",
-                "Adoption of best practices with Salesforce DX and version control."
-            ],
-            "chips": ["Salesforce", "LWC", "Apex", "SOQL", "Salesforce DX"]
-            },
-            {
-            "titulo": "IT Service Desk",
-            "empresa": "Assured Partners (through Tata Consultancy Services)",
-            "tiempo": "September 2025 – Present",
-            "tareas": [
-                "Provide technical support in English to international end users.",
-                "Troubleshoot Windows 11, Outlook, OneDrive, and drive mapping issues.",
-                "Manage access and SSO (Duo, Zscaler), escalation, and ServiceNow documentation."
-            ],
-            "chips": ["Windows 11", "Outlook/365", "OneDrive", "Duo", "Zscaler", "ServiceNow"]
-            }
+  "menu": {
+    "item2": "About me",
+    "item3": "Skills",
+    "item4": "Professional Experience",
+    "item5": "Training",
+    "item6": "Projects",
+    "item7": "Contact"
+  },
+  "home": {
+    "home_text-1": "Hey! I'm",
+    "home_text-3": "AWS Cloud Practitioner | Salesforce Administrator | Computer Engineering Student",
+    "parrafo-info": "Welcome! I’m a Junior IT Technician at Tata Consultancy Services, passionate about solving problems and helping people through technology. Here I bring together my experience in Service Desk, Salesforce, and AWS Cloud as I continue to grow in the tech industry.",
+    "cv_button": "Download CV",
+    "contact_button": "Contact"
+  },
+  "sobre-mi": {
+    "title": "About me",
+    "texto_sobreMi": "I’m Facundo Morales — a tech enthusiast constantly learning and evolving in the IT world \n \n At Tata Consultancy Services, I work as an IT Service Desk Analyst, helping international users solve technical issues across corporate systems. I handle troubleshooting in Windows 11, Office 365, Outlook, OneDrive, and SSO tools like Duo, Zscaler, and Okta, while managing incidents through ServiceNow. \n \n With a background in Salesforce and AWS Cloud, I bridge technical support and cloud technology to deliver better experiences for users. I’m known for being responsible, adaptable, and always curious — focused on learning, improving, and making technology work for people."
+  },
+  "habilidades": {
+    "title": "Skills"
+  },
+  "experiencia": {
+    "title": "Work Experience",
+    "roles": [
+      {
+        "titulo": "Junior Technician (Salesforce Training)",
+        "empresa": "Tata Consultancy Services",
+        "tiempo": "June 2025 – August 2025",
+        "tareas": [
+          "Intensive training in Salesforce: objects, permissions, and automation.",
+          "Hands-on practice with LWC, Apex, and SOQL through guided projects.",
+          "Adoption of best practices with Salesforce DX and version control."
+        ],
+        "chips": [
+          "Salesforce",
+          "LWC",
+          "Apex",
+          "SOQL",
+          "Salesforce DX"
         ]
-    },
-
-
-    "formacion": {
-        "title": "Academic Education and Credentials",
-    
-        "tituloAWS": "AWS",
-        "tituloUniversidad": "Universidad",
-        "tituloCoursera": "Coursera",
-        "tituloJAP": "Jóvenes a Programar",
-        "tituloForge": "Forge",
-
-        "moreInfo_button1": "Further Information",
-
-        "formacion_U1": "Computer Engineering",
-        "formacion_U2": "Catholic University of Uruguay",
-        "tiempo-formacion_U1": "2020 - 2022",
-        "formacion_U3": "Computer Engineering",
-        "formacion_U4": "Universidad de la Republica",
-        "tiempo-formacion_U2": "2025 - Nowadays",
-    
-        "formacion_AWS1" : "AWS Certified",
-        "formacion_AWS2" : "Cloud Practitioner",
-        "formacion_AWS3" : "AWS re/Start",
-        "formacion_AWS4" : "Graduate",
-        "formacion_AWS5" : "AWS Cloud Quest:",
-        "formacion_AWS6" : "Cloud Practitioner",
-    
-        "formacion_C1" : "Databases and SQL",
-        "formacion_C2" : "for Data Science with Python",
-        "formacion_C3" : "Python for Data Science,",
-        "formacion_C4" : "AI & Development",
-        "formacion_C5" : "Fundamentals of Project Management",
-        "formacion_C6" : "Artificial Intelligence:",
-        "formacion_C7" : "Ethics & Societal Challenges",
-
-        "formacion_J1" : "Jóvenes a Programar",
-        "formacion_J2" : "Testing",
-        "formacion_J3" : "Programacion Web",
-        "formacion_J4" : "Desde Cero",
-
-        "CredencialForge1" : "Teamwork",
-        "CredencialForge2" : "Personal leadership",
-        "CredencialForge3" : "Achievement orientation",
-        "CredencialForge4" : "Engagement in learning"
-    },  
-
-    "proyectos": {
-        "title": "Projects",
-        
-        "title-proyecto1": "Battleship Game",
-        "info-proyecto1": "You will embark on an epic battle, far from being the conventional game and with plenty of twists and turns",
-        
-        "title-proyecto2": "Website using AWS S3",
-        "info-proyecto2": "We provide a tutorial and an example of how to deploy a website using amazon S3.",
-        
-        "title-proyecto3": "Portafolio",
-        "info-proyecto3": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a bit about my background.",
-
-        "title-proyecto4": "Serverless Proyect",
-        "info-proyecto4": "Mass email delivery system using AWS serverless services for automatic scalability."
-    },
-
-    "contacto": {
-        "title": "Contact",
-        "text": "Complete the form below and I will contact you as soon as possible.",
-        "btn-enviar": "Send"
-    }
+      },
+      {
+        "titulo": "IT Service Desk",
+        "empresa": "Assured Partners (through Tata Consultancy Services)",
+        "tiempo": "September 2025 – Present",
+        "tareas": [
+          "Provide technical support in English to international end users.",
+          "Troubleshoot Windows 11, Outlook, OneDrive, and drive mapping issues.",
+          "Manage access and SSO (Duo, Zscaler), escalation, and ServiceNow documentation."
+        ],
+        "chips": [
+          "Windows 11",
+          "Outlook/365",
+          "OneDrive",
+          "Duo",
+          "Zscaler",
+          "ServiceNow"
+        ]
+      }
+    ]
+  },
+  "formacion": {
+    "title": "Academic Education and Credentials",
+    "tituloAWS": "AWS",
+    "tituloUniversidad": "Universidad",
+    "tituloCoursera": "Coursera",
+    "tituloJAP": "Jóvenes a Programar",
+    "tituloForge": "Forge",
+    "moreInfo_button1": "Further Information",
+    "formacion_U1": "Computer Engineering",
+    "formacion_U2": "Catholic University of Uruguay",
+    "tiempo-formacion_U1": "2020 - 2022",
+    "formacion_U3": "Computer Engineering",
+    "formacion_U4": "Universidad de la Republica",
+    "tiempo-formacion_U2": "2025 - Nowadays",
+    "formacion_AWS1": "AWS Certified",
+    "formacion_AWS2": "Cloud Practitioner",
+    "formacion_AWS3": "AWS re/Start",
+    "formacion_AWS4": "Graduate",
+    "formacion_AWS5": "AWS Cloud Quest:",
+    "formacion_AWS6": "Cloud Practitioner",
+    "formacion_C1": "Databases and SQL",
+    "formacion_C2": "for Data Science with Python",
+    "formacion_C3": "Python for Data Science,",
+    "formacion_C4": "AI & Development",
+    "formacion_C5": "Fundamentals of Project Management",
+    "formacion_C6": "Artificial Intelligence:",
+    "formacion_C7": "Ethics & Societal Challenges",
+    "formacion_J1": "Jóvenes a Programar",
+    "formacion_J2": "Testing",
+    "formacion_J3": "Programacion Web",
+    "formacion_J4": "Desde Cero",
+    "CredencialForge1": "Teamwork",
+    "CredencialForge2": "Personal leadership",
+    "CredencialForge3": "Achievement orientation",
+    "CredencialForge4": "Engagement in learning"
+  },
+  "proyectos": {
+    "title": "Projects",
+    "title-proyecto1": "Battleship Game",
+    "info-proyecto1": "You will embark on an epic battle, far from being the conventional game and with plenty of twists and turns",
+    "title-proyecto2": "Website using AWS S3",
+    "info-proyecto2": "We provide a tutorial and an example of how to deploy a website using amazon S3.",
+    "title-proyecto3": "Portafolio",
+    "info-proyecto3": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a bit about my background.",
+    "title-proyecto4": "Serverless Proyect",
+    "info-proyecto4": "Mass email delivery system using AWS serverless services for automatic scalability."
+  },
+  "contacto": {
+    "title": "Contact",
+    "text": "Complete the form below and I will contact you as soon as possible.",
+    "btn-enviar": "Send"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "skills": "Skills",
+    "experience": "Work Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "titles": {
+    "about": "About me",
+    "skills": "Skills",
+    "experience": "Work Experience",
+    "education": "Academic Background & Credentials",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "cv": "Download CV"
+  },
+  "contact": {
+    "name": "Your name",
+    "email": "Your email",
+    "message": "Your message"
+  }
 }

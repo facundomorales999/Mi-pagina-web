@@ -1,125 +1,109 @@
 {
-    "menu": {
-        "item2": "Sobre mí",
-        "item3": "Habilidades",
-        "item4": "Experiencia Laboral",
-        "item5": "Formación",
-        "item6": "Proyectos",
-        "item7": "Contacto"
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "experience": "Experiencia Laboral",
+    "education": "Formación",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "titles": {
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "experience": "Experiencia Laboral",
+    "education": "Formación Académica y Credenciales",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "buttons": {
+    "cv": "Descargar CV"
+  },
+  "contact": {
+    "name": "Tu nombre",
+    "email": "Tu correo electrónico",
+    "message": "Tu mensaje"
+  },
+  "exp": {
+    "tcs": {
+      "title": "Técnico Junior (Aprendizaje Salesforce)",
+      "company": "Tata Consultancy Services",
+      "dates": "Junio 2025 – Agosto 2025",
+      "tasks": {
+        "1": "Formación intensiva en Salesforce: objetos, permisos y automatización.",
+        "2": "Prácticas con LWC, Apex y SOQL en proyectos de aprendizaje.",
+        "3": "Buenas prácticas con Salesforce DX y control de versiones."
+      },
+      "tags": {
+        "salesforce": "Salesforce",
+        "developer": "Developer",
+        "admin": "Administrator",
+        "lwc": "LWC",
+        "apex": "Apex",
+        "automation": "Herramientas de Automatización"
+      }
     },
-
-    "home": {
-        "home_text-1": "Buenas! Soy",
-        "home_text-3": "AWS Cloud Practitioner | Salesforce Administrator | Estudiante Ingeniería en Computación",
-        "parrafo-info": "Buenas, soy Técnico junior en Tata Consultancy Services, especializado en soporte IT y entornos corporativos internacionales. Bienvenido a mi portafolio, donde combino mi experiencia en Service Desk, Salesforce y AWS Cloud para seguir creciendo en el mundo tecnológico.",
-        "cv_button": "Descargar CV",
-        "contact_button": "Contacto"
-    },
-
-    "sobre-mi": {
-        "title": "Sobre mí",
-        "texto_sobreMi": "Soy Facundo Morales, apasionado por la tecnología y actualmente en crecimiento dentro del mundo IT. \n \n En Tata Consultancy Services me desempeño como IT Service Desk Analyst, brindando soporte a usuarios internacionales en entornos corporativos complejos. Mi experiencia incluye resolución de incidencias en Windows 11, Office 365, Outlook, OneDrive y herramientas de SSO (Duo, Zscaler, Okta), además de la gestión de tickets con ServiceNow. \n \n  Previamente me formé en Salesforce y AWS Cloud, lo que me permite tener una visión integral entre soporte técnico y plataformas en la nube. Me considero responsable, adaptable y con gran capacidad de aprendizaje continuo, siempre buscando aportar soluciones efectivas y mejorar la experiencia de los usuarios."
-    },
-
-    
-    "experiencia": {
-        "title": "Experiencia Laboral",
-        "roles": [
-            {
-            "titulo": "Técnico Junior (Formación en Salesforce)",
-            "empresa": "Tata Consultancy Services",
-            "tiempo": "Junio 2025 – Agosto 2025",
-            "tareas": [
-                "Formación intensiva en Salesforce: objetos, permisos y automatización.",
-                "Práctica con LWC, Apex y SOQL en proyectos guiados.",
-                "Buenas prácticas con Salesforce DX y control de versiones."
-            ],
-            "chips": ["Salesforce", "LWC", "Apex", "SOQL", "Salesforce DX"]
-            },
-            {
-            "titulo": "IT Service Desk",
-            "empresa": "Assured Partners (a través de Tata Consultancy Services)",
-            "tiempo": "Septiembre 2025 – Actualidad",
-            "tareas": [
-                "Soporte técnico en inglés a usuarios internacionales.",
-                "Diagnóstico en Windows 11, Outlook, OneDrive y mapeo de unidades.",
-                "Gestión de accesos y SSO (Duo, Zscaler), escalaciones y documentación en ServiceNow."
-            ],
-            "chips": ["Windows 11", "Outlook/365", "OneDrive", "Duo", "Zscaler", "ServiceNow"]
-            }
-        ]
-    },
-
-    
-
-
-    "habilidades": {
-        "title": "Habilidades"
-    },
-
-    "formacion": {
-        "title": "Academic Education and Credentials",
-    
-        "tituloAWS": "AWS",
-        "tituloUniversidad": "Universidad",
-        "tituloCoursera": "Coursera",
-        "tituloJAP": "Jóvenes a Programar",
-        "tituloForge": "Forge",
-
-        "moreInfo_button1": "Mas Informacion",
-
-        "formacion_U1": "Ingeniería en informática",
-        "formacion_U2": "Universidad Catolica del Uruguay",
-        "tiempo-formacion_U1": "2020 - 2023",
-        "formacion_U3": "Ingeniería en Computación ",
-        "formacion_U4": "Universidad de la Republica",
-        "tiempo-formacion_U2": "2025 - Actualidad",
-    
-        "formacion_AWS1" : "AWS Certified",
-        "formacion_AWS2" : "Cloud Practitioner",
-        "formacion_AWS3" : "AWS re/Start",
-        "formacion_AWS4" : "Graduate",
-        "formacion_AWS5" : "AWS Cloud Quest:",
-        "formacion_AWS6" : "Cloud Practitioner",
-    
-        "formacion_C1" : "Bases de datos y SQL",
-        "formacion_C2" : "para ciencia de datos con Python",
-        "formacion_C3" : "Python para la ciencia de datos,",
-        "formacion_C4" : "IA y desarrollo",
-        "formacion_C5" : "Fundamentos de la gestión de proyectos",
-        "formacion_C6" : "Inteligencia Artificial:",
-        "formacion_C7" : "Retos éticos y sociales",
-
-        "formacion_J1" : "Jóvenes a Programar",
-        "formacion_J2" : "Testing",
-        "formacion_J3" : "Programacion Web",
-        "formacion_J4" : "Desde Cero",
-
-        "CredencialForge1" : "Trabajo en Equipo",
-        "CredencialForge2" : "Liderazgo personal",
-        "CredencialForge3" : "Orientación al logro",
-        "CredencialForge4" : "Compromiso con el aprendizaje"
-    },    
-
-    "proyectos": {
-        "title": "Proyectos",
-        
-        "title-proyecto1": "Juego Batalla Naval",
-        "info-proyecto1": "Te embarcaras en una épica batalla, lejos de ser el juego convencional y con bastantes giros.",
-        
-        "title-proyecto2": "Sitio Web usando S3",
-        "info-proyecto2": "Planteamos un tutorial y un ejemplo de como desplegar un sitio web utilizando amazon S3.",
-        
-        "title-proyecto3": "Portafolio",
-        "info-proyecto3": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.",
-
-        "title-proyecto4": "Serverless Proyect",
-        "info-proyecto4": "Sistema de envío masivo de correos electrónicos. Utilizando servicios serverless de AWS para escalar automáticamente. "
-    },
-
-    "contacto": {
-        "title": "Contacto",
-        "text": "Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.",
-        "btn-enviar": "Enviar"
+    "ap": {
+      "title": "IT Service Support",
+      "company": "Assured Partners (a través de Tata Consultancy Services)",
+      "dates": "Septiembre 2025 – Actualidad",
+      "tasks": {
+        "1": "Soporte técnico en inglés para usuarios finales.",
+        "2": "Diagnóstico de Windows 11, Outlook, OneDrive y unidades de red.",
+        "3": "Gestión de accesos y SSO (Duo, Zscaler), escalamiento y documentación."
+      },
+      "tags": {
+        "servicedesk": "Service Desk",
+        "servicenow": "ServiceNow",
+        "zscaler": "Zscaler",
+        "windows": "Windows 11",
+        "outlook": "Outlook",
+        "onedrive": "OneDrive"
+      }
     }
+  },
+  "education": {
+    "categories": {
+      "university": "Universidad",
+      "certifications": "Certificaciones",
+      "courses": "Cursos"
+    },
+    "uni": {
+      "udelar": {
+        "program": "Ingeniería en Computación",
+        "institution": "Universidad de la República",
+        "dates": "2025 – Actualidad"
+      },
+      "ucu": {
+        "program": "Ingeniería en Informática",
+        "institution": "Universidad Católica del Uruguay",
+        "dates": "2020 – 2023"
+      }
+    },
+    "certs": {
+      "aws": {
+        "cp": {
+          "title": "AWS Cloud Practitioner",
+          "provider": "Amazon Web Services",
+          "date": "2024"
+        }
+      }
+    },
+    "courses": {
+      "ibm": {
+        "sql": {
+          "title": "Databases and SQL for Data Science with Python",
+          "provider": "IBM / Coursera",
+          "date": "2025"
+        }
+      },
+      "aws": {
+        "restart": {
+          "title": "AWS re/Start",
+          "provider": "AWS / Coding Dojo",
+          "date": "2024"
+        }
+      }
+    }
+  }
 }

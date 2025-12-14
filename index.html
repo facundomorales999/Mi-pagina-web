@@ -38,13 +38,13 @@
 <img src="./assets/images/deco/logo-FM.png" alt="Logo Portafolio" class="logo__header">
 
 <nav class="nav_menu not-active">
-  <a href="#home" class="active">Home</a>
+  <a href="#home" class="active"><span data-i18n="nav.home">Home</span></a>
   <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
-  <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
-  <a href="#experienciaLaboral" data-section="menu" data-value="item4">Experiencia Laboral</a>
-  <a href="#formacion" data-section="menu" data-value="item5">Formación</a>
-  <a href="#proyectos" data-section="menu" data-value="item6">Proyectos</a>
-  <a href="#contacto" data-section="menu" data-value="item7">Contacto</a>
+  <a href="#habilidades" data-section="menu" data-value="item3"><span data-i18n="nav.skills">Habilidades</span></a>
+  <a href="#experienciaLaboral" data-section="menu" data-value="item4"><span data-i18n="nav.experience">Experiencia Laboral</span></a>
+  <a href="#formacion" data-section="menu" data-value="item5"><span data-i18n="nav.education">Formación</span></a>
+  <a href="#proyectos" data-section="menu" data-value="item6"><span data-i18n="nav.projects">Proyectos</span></a>
+  <a href="#contacto" data-section="menu" data-value="item7"><span data-i18n="nav.contact">Contacto</span></a>
 
   <!-- Idiomas de la página -->
   <div id="flags" class="flags">
@@ -94,7 +94,7 @@
             Descargar CV
         </a>
         <a class="contact_button" href="#contacto" data-section="home" data-value="contact_button">
-            Contacto
+            <span data-i18n="nav.contact">Contacto</span>
         </a>
     </div>        
   </div>
@@ -138,7 +138,7 @@
 
 <!-- Habilidades -->
 <section class="habilidades" id="habilidades">
-  <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Habilidades</h1>
+  <h1 data-section="habilidades" data-value="title" data-aos="fade-up"><span data-i18n="titles.skills">Habilidades</span></h1>
 
   <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
   <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
@@ -206,291 +206,122 @@
   </div>
 </section>
 
-<!-- Experiencia Laboral -->
-<section class="experienciaLaboral" id="experienciaLaboral">
-<h1 data-section="experiencia.title" data-value="title" data-aos="fade-up">Experiencia Laboral</h1>
+<section id="experienciaLaboral">
+  <h2><span data-i18n="titles.experience">Experiencia Laboral</span></h2>
 
   <div class="grupo-cards">
-    <!-- Rol 1: Técnico Junior (Salesforce Trainee) -->
-    <article class="cards--experiencia" data-aos="fade-up" data-aos-duration="500">
-      <img src="./assets/images/icon/icon-salesforce.png" alt="Salesforce" class="exp-logo">
+    <!-- TCS -->
+    <article class="cards--experiencia">
+      <img src="./assets/images/salesforce.png" alt="Salesforce" class="exp-logo">
       <div class="container_texto--experiencia">
-        <p class="titulo">Técnico Junior (Aprendizaje Salesforce)</p>
-        <p class="empresa">Tata Consultancy Services</p>
-        <p class="tiempo">Junio 2025 – Agosto 2025</p>
+        <p class="titulo"><span data-i18n="exp.tcs.title">Técnico Junior (Aprendizaje Salesforce)</span></p>
+        <p class="empresa"><span data-i18n="exp.tcs.company">Tata Consultancy Services</span></p>
+        <p class="tiempo"><span data-i18n="exp.tcs.dates">Junio 2025 – Agosto 2025</span></p>
         <ul class="tareas">
-          <li>Formación intensiva en Salesforce: objetos, permisos, automatización.</li>
-          <li>Prácticas con LWC, Apex y SOQL en proyectos de aprendizaje.</li>
-          <li>Buenas prácticas con Salesforce DX y control de versiones.</li>
+          <li><span data-i18n="exp.tcs.tasks.1">Formación intensiva en Salesforce: objetos, permisos, automatización.</span></li>
+          <li><span data-i18n="exp.tcs.tasks.2">Prácticas con LWC, Apex y SOQL en proyectos de aprendizaje.</span></li>
+          <li><span data-i18n="exp.tcs.tasks.3">Buenas prácticas con Salesforce DX y control de versiones.</span></li>
         </ul>
         <div class="chips">
-          <span>Salesforce</span><span>Developer</span><span>Administrator</span>
-          <span>Automation Tools</span><span>LWC</span><span>APEX</span><span>Ingles</span>
+          <span data-i18n="exp.tcs.tags.salesforce">Salesforce</span>
+          <span data-i18n="exp.tcs.tags.developer">Developer</span>
+          <span data-i18n="exp.tcs.tags.admin">Administrator</span>
+          <span data-i18n="exp.tcs.tags.lwc">LWC</span>
+          <span data-i18n="exp.tcs.tags.apex">Apex</span>
+          <span data-i18n="exp.tcs.tags.automation">Automation Tools</span>
         </div>
       </div>
     </article>
 
-    <!-- Rol 2: IT Service Desk (Asistencia en Assured Partners, dentro de TCS) -->
-    <article class="cards--experiencia" data-aos="fade-up" data-aos-duration="700">
-      <img src="./assets/images/icon/AssuredPartners-logo.png" alt="Gallagher Assured Partners" class="exp-logo">
+    <!-- Assured Partners / IT Service Support -->
+    <article class="cards--experiencia">
+      <img src="./assets/images/ap.png" alt="Assured Partners" class="exp-logo">
       <div class="container_texto--experiencia">
-        <p class="titulo">IT Service Support</p>
-        <p class="empresa">Assured Partners (a través de Tata Consultancy Services)</p>
-        <p class="tiempo">Septiembre 2025 – Actualidad</p>
+        <p class="titulo"><span data-i18n="exp.ap.title">IT Service Support</span></p>
+        <p class="empresa"><span data-i18n="exp.ap.company">Assured Partners (a través de Tata Consultancy Services)</span></p>
+        <p class="tiempo"><span data-i18n="exp.ap.dates">Septiembre 2025 – Actualidad</span></p>
         <ul class="tareas">
-          <li>Soporte técnico en inglés para usuarios finales.</li>
-          <li>Diagnóstico de Windows 11, Outlook, OneDrive, y mapeo de drives.</li>
-          <li>Manejo de accesos y SSO (Duo, Zscaler), escalamiento y documentación.</li>
+          <li><span data-i18n="exp.ap.tasks.1">Soporte técnico en inglés para usuarios finales.</span></li>
+          <li><span data-i18n="exp.ap.tasks.2">Diagnóstico de Windows 11, Outlook, OneDrive y mapeo de drives.</span></li>
+          <li><span data-i18n="exp.ap.tasks.3">Accesos y SSO (Duo, Zscaler), escalamiento y documentación.</span></li>
         </ul>
         <div class="chips">
-          <span>Service Desk</span><span>Service now</span><span>Bomgar</span>
-          <span>Nerdio</span><span>Tanium</span><span>Zscaler</span><span>Inglés</span>
-        </div>      
+          <span data-i18n="exp.ap.tags.servicedesk">Service Desk</span>
+          <span data-i18n="exp.ap.tags.servicenow">ServiceNow</span>
+          <span data-i18n="exp.ap.tags.zscaler">Zscaler</span>
+          <span data-i18n="exp.ap.tags.windows">Windows 11</span>
+          <span data-i18n="exp.ap.tags.outlook">Outlook</span>
+          <span data-i18n="exp.ap.tags.onedrive">OneDrive</span>
+        </div>
       </div>
     </article>
   </div>
 </section>
-
-<!-- 
-<section class="experiencia" id="experiencia">
-  <h1 data-i18n="experiencia.title">Experiencia Laboral</h1>
-
-  <div class="grupo-cards" id="experiencia-list"></div>
-
-  <template id="tpl-exp-card">
-    <article class="cards--experiencia">
-      <img class="exp-logo" alt="logo" src="assets/tcs.png" />
-      <div class="container_texto--experiencia">
-        <p class="titulo"></p>
-        <p class="empresa"></p>
-        <p class="tiempo"></p>
-        <ul class="tareas"></ul>
-        <div class="chips"></div>
-      </div>
-    </article>
-  </template>
-</section>
-
--->
-
-
-
 
 <!-- Formación -->
 <section class="formacion" id="formacion">
-  <h1 data-section="formacion" data-value="title" data-aos="fade-up">Formación Académica y Credenciales</h1>
+  <h1><span data-i18n="titles.education">Formación Académica y Credenciales</span></h1>
 
-  <!-- Universidad -->
   <div class="categoria-formacion">
-    <h2 class="titulo-categoria">Universidad</h2>
+    <h3 class="titulo-categoria"><span data-i18n="education.categories.university">Universidad</span></h3>
     <div class="grupo-cards">
-      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-        <img class="logo-aws" src="./assets/images/icon/icon-ucu.png" alt="UCU">
+      <!-- Ejemplo Udelar -->
+      <article class="cards--formacion">
         <div class="container_texto--formacion">
-          <p data-section="formacion" data-value="formacion_U1">Ingeniería en Informática</p>
-          <p data-section="formacion" data-value="formacion_U2">Universidad Católica del Uruguay</p>
-          <p data-section="formacion" data-value="tiempo-formacion_U1">2020 - 2022</p>
+          <p><span data-i18n="education.uni.udelar.program">Ingeniería en Computación</span></p>
+          <p><span data-i18n="education.uni.udelar.institution">Universidad de la República</span></p>
+          <p><span data-i18n="education.uni.udelar.dates">2025 – Actualidad</span></p>
         </div>
-      </div>
-
-      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-        <img class="logo-aws" src="./assets/images/icon/cenur-logo.png" alt="UDELAR">
-          <div class="container_texto--formacion">
-            <p data-section="formacion" data-value="formacion_U3">Ingeniería en Computación</p>
-            <p data-section="formacion" data-value="formacion_U4">Universidad de la Republica</p>
-            <p data-section="formacion" data-value="tiempo-formacion_U2">2025 - Actualidad</p>
-          </div>
-      </div>
-    </div>
-  </div>
-  
-  <!-- Salesforce
-  <div class="categoria-formacion">
-    <h2 class="titulo-categoria"> Salesforce Certified </h2>
-    <div class="grupo-cards">
-      <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-        <img class="logo-aws" src="" alt="Platform Admin Certificate">
+      </article>
+      <!-- Ejemplo UCU -->
+      <article class="cards--formacion">
         <div class="container_texto--formacion">
-          <p data-section="formacion" data-value="formacion_AWS1">Platform Administrator</p>
-          <p data-section="formacion" data-value="formacion_AWS2"></p>
-          <a href="https://www.credly.com/badges/1bc8fce0-712b-45fb-8ad1-c8bde1e5c76c/public_url" target="_blank">
-            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-          </a>
+          <p><span data-i18n="education.uni.ucu.program">Ingeniería en Informática</span></p>
+          <p><span data-i18n="education.uni.ucu.institution">Universidad Católica del Uruguay</span></p>
+          <p><span data-i18n="education.uni.ucu.dates">2020 – 2023</span></p>
         </div>
-      </div> 
-    </div>
-  </div>  -->  
-
-  <!-- AWS -->
-  <div class="categoria-formacion">
-    <h2 class="titulo-categoria">Amazon Web Services</h2>
-    <div class="grupo-cards">
-      <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-        <img class="logo-aws" src="./assets/images/icon/aws1.png" alt="AWS Cloud Practitioner">
-        <div class="container_texto--formacion">
-          <p data-section="formacion" data-value="formacion_AWS1">AWS Certified</p>
-          <p data-section="formacion" data-value="formacion_AWS2">Cloud Practitioner</p>
-          <a href="https://www.credly.com/badges/1bc8fce0-712b-45fb-8ad1-c8bde1e5c76c/public_url" target="_blank">
-            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-          </a>
-        </div>
-      </div>
-
-      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
-        <img class="logo-aws" src="./assets/images/icon/aws2.png" alt="AWS re/Start Graduate">
-        <div class="container_texto--formacion">
-          <p data-section="formacion" data-value="formacion_AWS3">AWS re/Start</p>
-          <p data-section="formacion" data-value="formacion_AWS4">Graduate</p>
-          <a href="https://www.credly.com/badges/98a8f96a-e498-4659-a9be-ba008bd6eb6d/public_url" target="_blank">
-            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-          </a>
-        </div>
-      </div>
-
-      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-          <img class="logo-aws" src="./assets/images/icon/CloudQuest_logo.png" alt="Cloud Quest">
-          <div class="container_texto--formacion">
-            <p data-section="formacion" data-value="formacion_AWS5">AWS Cloud Quest:</p>
-            <p data-section="formacion" data-value="formacion_AWS6">Cloud Practitioner</p>
-            <a href="https://www.credly.com/earner/earned/badge/8db9eff0-e23d-4601-8571-3df3b71becb2" target="_blank">
-              <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-            </a>
-          </div>
-      </div>
+      </article>
     </div>
   </div>
 
-  <!-- Coursera -->
   <div class="categoria-formacion">
-    <h2 class="titulo-categoria">Coursera</h2>
-      <div class="grupo-cards">
-        <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-          <img class="logo-aws" src="./assets/images/icon/Coursera_1-logo.png" alt="Databases & SQL">
-          <div class="container_texto--formacion">
-            <p data-section="formacion" data-value="formacion_C1">Databases and SQL</p>
-            <p data-section="formacion" data-value="formacion_C2">for Data Science with Python</p>
-            <a href="https://www.coursera.org/account/accomplishments/verify/ZX0B8GVN70PW" target="_blank">
-              <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-            </a>
-          </div>
-        </div>
-  
-        <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
-          <img class="logo-aws" src="./assets/images/icon/Coursera_2-logo.png" alt="Python for Data Science">
-          <div class="container_texto--formacion">
-            <p data-section="formacion" data-value="formacion_C3">Python for Data Science,</p>
-            <p data-section="formacion" data-value="formacion_C4">AI & Development</p>
-            <a href="https://www.coursera.org/account/accomplishments/verify/KW69XTRLSMXY" target="_blank">
-              <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-            </a>
-          </div>
-        </div>
-        <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-          <img class="logo-aws" src="./assets/images/icon/Coursera_3-logo.png" alt="Fundamentos gestión de Proyectos">
-          <div class="container_texto--formacion">
-            <p data-section="formacion" data-value="formacion_C5">Fundamentos de la gestión de proyectos</p>
-            <a href="https://www.coursera.org/account/accomplishments/verify/VEZCVL6BL5TW" target="_blank">
-              <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-            </a>
-          </div>
-        </div>
-        <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-          <img class="logo-aws" src="./assets/images/icon/Coursera_4-logo.png" alt="Etica">
-          <div class="container_texto--formacion">
-            <p data-section="formacion" data-value="formacion_C6">Inteligencia Artificial:</p>
-            <p data-section="formacion" data-value="formacion_C7">Retos éticos y sociales</p>
-            <a href="https://coursera.org/share/e6587a8d476e786f1c35c5ec96cb5a6c" target="_blank">
-              <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  <!-- Jóvenes a Programar -->
-  <div class="categoria-formacion">
-    <h2 class="titulo-categoria">Jóvenes a Programar</h2>
+    <h3 class="titulo-categoria"><span data-i18n="education.categories.certifications">Certificaciones</span></h3>
     <div class="grupo-cards">
-      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-        <img class="logo-aws" src="./assets/images/icon/icon-jap.png" alt="JAP">
+      <article class="cards--formacion">
         <div class="container_texto--formacion">
-          <p data-section="formacion" data-value="formacion_J1">Jóvenes a Programar</p>
-          <p data-section="formacion" data-value="formacion_J2">Testing</p>
-          <a href="https://drive.google.com/file/d/1YVdNtiVKTfntO_3cJhe7J_PIbSCg1jBj/view?usp=sharing" target="_blank">
-            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button5">Más información</button>
-          </a>
+          <p><span data-i18n="education.certs.aws.cp.title">AWS Cloud Practitioner</span></p>
+          <p><span data-i18n="education.certs.aws.cp.provider">Amazon Web Services</span></p>
+          <p><span data-i18n="education.certs.aws.cp.date">2024</span></p>
         </div>
-      </div>
-      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-          <img class="logo-forge" src="./assets/images/icon/ProgramacionWeb-icon.png" alt="Programación">
-          <div class="container_texto--formacion">
-            <p data-section="formacion" data-value="formacion_J3">Programacion Web </p>
-            <p data-section="formacion" data-value="formacion_J4">Desde Cero</p>
-          </div>
-        </div>
+      </article>
     </div>
   </div>
 
-  <!-- Forge -->
   <div class="categoria-formacion">
-    <h2 class="titulo-categoria">Forge</h2>
+    <h3 class="titulo-categoria"><span data-i18n="education.categories.courses">Cursos</span></h3>
     <div class="grupo-cards">
-      <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-        <img class="logo-forge" src="./assets/images/icon/forge1.png" alt="Trabajo en Equipo">
+      <article class="cards--formacion">
         <div class="container_texto--formacion">
-          <p data-section="formacion" data-value="CredencialForge1">Trabajo en Equipo</p>
-          <a href="https://www.acreditta.com/credential/55cc5069-7b96-48e3-9e29-8c7165461c4e" target="_blank">
-            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-          </a>
+          <p><span data-i18n="education.courses.ibm.sql.title">Databases and SQL for Data Science with Python</span></p>
+          <p><span data-i18n="education.courses.ibm.sql.provider">IBM / Coursera</span></p>
+          <p><span data-i18n="education.courses.ibm.sql.date">2025</span></p>
         </div>
-      </div>
-
-      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-        <img class="logo-forge" src="./assets/images/icon/forge2.png" alt="Liderazgo Persoanl">
+      </article>
+      <article class="cards--formacion">
         <div class="container_texto--formacion">
-          <p data-section="formacion" data-value="CredencialForge2">Liderazgo personal</p>
-          <a href="https://www.acreditta.com/credential/5926cd13-cf59-4cc7-92a5-32276d339638" target="_blank">
-            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-          </a>
+          <p><span data-i18n="education.courses.aws.restart.title">AWS re/Start</span></p>
+          <p><span data-i18n="education.courses.aws.restart.provider">AWS / Coding Dojo</span></p>
+          <p><span data-i18n="education.courses.aws.restart.date">2024</span></p>
         </div>
-      </div>
-
-      <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-        <img class="logo-forge" src="./assets/images/icon/forge3.png" alt="Orientación al Logro">
-        <div class="container_texto--formacion">
-          <p data-section="formacion" data-value="CredencialForge3">Orientación al logro</p>
-          <a href="https://www.acreditta.com/credential/950a4f3d-5215-4e84-807c-948c2a364fbc" target="_blank">
-            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-          </a>
-        </div>
-      </div>
-
-      <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
-        <img class="logo-forge" src="./assets/images/icon/forge4.png" alt="Compromiso">
-        <div class="container_texto--formacion">
-          <p data-section="formacion" data-value="CredencialForge4">Compromiso con el aprendizaje</p>
-          <a href="https://www.acreditta.com/credential/2c173c3a-696f-4d43-95d9-627ff123c9be" target="_blank">
-            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-          </a>
-        </div>
-      </div>
-
-      <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-        <img class="logo-forge" src="./assets/images/icon/forge5.png" alt="Trabajo en Equipo">
-        <div class="container_texto--formacion">
-          <p data-section="formacion" data-value="CredencialForge1">Trabajo en Equipo</p>
-          <a href="https://view.pok.tech/c/d7e87f28-98eb-4319-ae47-e86be50f3f30" target="_blank">
-            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">Más información</button>
-          </a>
-        </div>
-      </div>
+      </article>
     </div>
   </div>
-</section>          
+</section>
+    
 
 <!-- Proyectos -->
 <section class="proyectos" id="proyectos">
-  <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Proyectos</h1>
+  <h1 data-section="proyectos" data-value="title" data-aos="fade-up"><span data-i18n="titles.projects">Proyectos</span></h1>
 
   <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
   <img src="./assets/images/deco/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
@@ -598,7 +429,7 @@
 
 <!-- Contacto -->
 <section class="contacto" id="contacto">
-  <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
+  <h1 data-section="contacto" data-value="title" data-aos="fade-up"><span data-i18n="titles.contact">Contacto</span></h1>
 
   <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       <div class="container--contacto">
@@ -614,10 +445,10 @@
               <!-- Campo oculto para evitar bots -->
               <input type="hidden" name="form-name" value="contacto-portafolio" />
 
-              <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
-              <input id="email" type="email" name="email" placeholder="Correo" required>
+              <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required data-i18n="contact.name" data-i18n-attr="placeholder">
+              <input id="email" type="email" name="email" placeholder="Correo" required data-i18n="contact.email" data-i18n-attr="placeholder">
               <input id="asunto" type="text" name="affair" placeholder="Asunto | Subject" required> 
-              <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message" required></textarea>
+              <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message" required data-i18n="contact.message" data-i18n-attr="placeholder"></textarea>
 
               <div class="btn_form--contacto">
                   <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Enviar</button>
